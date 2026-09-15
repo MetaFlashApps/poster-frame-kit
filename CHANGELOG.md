@@ -3,6 +3,13 @@
 All notable changes to PosterFrameKit are documented here.
 Before 1.0.0, minor releases may intentionally introduce API changes.
 
+## Unreleased
+
+### Fixed
+
+- The documentation site root now redirects to the DocC API reference using
+  a relative path, instead of loading DocC assets from the wrong site root.
+
 ## 0.1.0 - 2026-09-15
 
 Initial public release.

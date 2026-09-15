@@ -26,4 +26,6 @@ xcrun docc process-archive transform-for-static-hosting \
     --output-path "$OUTPUT_DIRECTORY" \
     --hosting-base-path "$HOSTING_BASE_PATH"
 
+cp "$PROJECT_DIRECTORY/docs/assets/docc-index.html" "$OUTPUT_DIRECTORY/index.html"
+
 echo "Documentation site: $OUTPUT_DIRECTORY"

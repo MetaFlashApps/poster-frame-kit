@@ -124,7 +124,10 @@ Before the first deployment:
 3. Publish the GitHub release, or dispatch **Publish Documentation** on `main`.
 
 The expected project-site URL is
-[PosterFrameKit API reference](https://metaflashapps.github.io/poster-frame-kit/documentation/posterframekit/).
+[PosterFrameKit API reference](https://metaflashapps.github.io/poster-frame-kit/).
+The project root redirects to DocC's `/documentation/posterframekit/` route;
+existing deep links remain valid. The redirect uses a relative target so both
+project paths and root-hosted custom domains work without separate templates.
 The workflow reads Pages' actual hosting base path, so a custom-domain setup
 does not silently inherit the project-site prefix. Publication is complete
 only after the deployment job succeeds; adding the workflow alone does not
@@ -145,6 +148,6 @@ Scripts/build-documentation.sh ""
 python3 -m http.server 8000 --bind 127.0.0.1 --directory .build/documentation-site
 ```
 
-Open `http://localhost:8000/documentation/posterframekit/`. The build script
+Open `http://localhost:8000/`; it redirects to the API reference. The build script
 reuses the generated Xcode build directory and writes no generated HTML or
 symbol graphs into tracked documentation.

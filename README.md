@@ -423,7 +423,7 @@ Build it in Xcode with Product > Build Documentation or from the command line:
 xcodebuild docbuild -scheme PosterFrameKit -destination 'generic/platform=macOS'
 ```
 
-The [online API reference](https://metaflashapps.github.io/poster-frame-kit/documentation/posterframekit/)
+The [online API reference](https://metaflashapps.github.io/poster-frame-kit/)
 is deployed by the documentation workflow after a GitHub release is published.
 For a local static-site build, run `Scripts/build-documentation.sh`. See
 [documentation publishing](docs/continuous-integration.md#documentation-publishing)
