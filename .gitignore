@@ -1,0 +1,43 @@
+.DS_Store
+
+# SwiftPM build and IDE state, including nested example/benchmark packages.
+.build/
+.swiftpm/
+DerivedData/
+.vscode/
+.idea/
+*.xcuserstate
+*.xccheckout
+*.xcresult/
+
+# Local Python tooling state.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+
+# Local configuration and credentials.
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.mobileprovision
+/Examples/PosterFrameIOSExample/Config/Signing.local.xcconfig
+
+# Xcode per-user state.
+**/*.xcodeproj/xcuserdata/
+**/*.xcworkspace/xcuserdata/
+
+# Benchmark clips are generated on demand and never committed.
+/Benchmarks/.fixtures/
+/Benchmarks/.quality-results/
+/Benchmarks/.subtitle-results/
+
+# Video fixtures must be generated or fetched outside the repository.
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm

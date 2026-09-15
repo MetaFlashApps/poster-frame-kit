@@ -1,0 +1,4 @@
+// Repository-safe signing defaults for the iOS consumer example.
+PFK_DEVELOPMENT_TEAM =
+#include? "Signing.local.xcconfig"
+DEVELOPMENT_TEAM = $(PFK_DEVELOPMENT_TEAM)

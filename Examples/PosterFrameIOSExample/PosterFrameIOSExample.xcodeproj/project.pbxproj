@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200000000000000000000001 /* PosterFrameIOSExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000001 /* PosterFrameIOSExampleApp.swift */; };
+		200000000000000000000002 /* ExampleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000002 /* ExampleContentView.swift */; };
+		200000000000000000000003 /* PosterFrameKit in Frameworks */ = {isa = PBXBuildFile; productRef = E00000000000000000000001 /* PosterFrameKit */; };
+		200000000000000000000004 /* PosterFrameIOSExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000003 /* PosterFrameIOSExampleTests.swift */; };
+		200000000000000000000005 /* ExampleGeneratedVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000004 /* ExampleGeneratedVideo.swift */; };
+		200000000000000000000006 /* ExamplePixelBufferFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000005 /* ExamplePixelBufferFactory.swift */; };
+		200000000000000000000007 /* PosterFrameKit in Frameworks */ = {isa = PBXBuildFile; productRef = E00000000000000000000001 /* PosterFrameKit */; };
+		200000000000000000000008 /* ExampleAnalysisState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000008 /* ExampleAnalysisState.swift */; };
+		200000000000000000000009 /* ExampleSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000009 /* ExampleSelection.swift */; };
+		200000000000000000000010 /* ExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000010 /* ExampleViewModel.swift */; };
+		200000000000000000000011 /* ExampleIdleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000011 /* ExampleIdleView.swift */; };
+		200000000000000000000012 /* ExampleLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000012 /* ExampleLoadingView.swift */; };
+		200000000000000000000013 /* ExampleErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000013 /* ExampleErrorView.swift */; };
+		200000000000000000000014 /* ExampleMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000014 /* ExampleMetric.swift */; };
+		200000000000000000000015 /* ExampleMetricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000015 /* ExampleMetricView.swift */; };
+		200000000000000000000016 /* ExampleMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000016 /* ExampleMetricsView.swift */; };
+		200000000000000000000017 /* ExampleResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000017 /* ExampleResultView.swift */; };
+		200000000000000000000018 /* ExampleTimestampFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000018 /* ExampleTimestampFormatter.swift */; };
+		200000000000000000000019 /* ExamplePresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000019 /* ExamplePresentationTests.swift */; };
+		200000000000000000000021 /* ExampleImportedVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000021 /* ExampleImportedVideo.swift */; };
+		200000000000000000000022 /* ExampleImportedVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000022 /* ExampleImportedVideoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		400000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 900000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100000000000000000000001;
+			remoteInfo = PosterFrameIOSExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		300000000000000000000001 /* PosterFrameIOSExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterFrameIOSExampleApp.swift; sourceTree = "<group>"; };
+		300000000000000000000002 /* ExampleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleContentView.swift; sourceTree = "<group>"; };
+		300000000000000000000003 /* PosterFrameIOSExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterFrameIOSExampleTests.swift; sourceTree = "<group>"; };
+		300000000000000000000004 /* ExampleGeneratedVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleGeneratedVideo.swift; sourceTree = "<group>"; };
+		300000000000000000000005 /* ExamplePixelBufferFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplePixelBufferFactory.swift; sourceTree = "<group>"; };
+		300000000000000000000006 /* PosterFrameIOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PosterFrameIOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		300000000000000000000007 /* PosterFrameIOSExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PosterFrameIOSExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		300000000000000000000008 /* ExampleAnalysisState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAnalysisState.swift; sourceTree = "<group>"; };
+		300000000000000000000009 /* ExampleSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSelection.swift; sourceTree = "<group>"; };
+		300000000000000000000010 /* ExampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewModel.swift; sourceTree = "<group>"; };
+		300000000000000000000011 /* ExampleIdleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleIdleView.swift; sourceTree = "<group>"; };
+		300000000000000000000012 /* ExampleLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleLoadingView.swift; sourceTree = "<group>"; };
+		300000000000000000000013 /* ExampleErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleErrorView.swift; sourceTree = "<group>"; };
+		300000000000000000000014 /* ExampleMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleMetric.swift; sourceTree = "<group>"; };
+		300000000000000000000015 /* ExampleMetricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleMetricView.swift; sourceTree = "<group>"; };
+		300000000000000000000016 /* ExampleMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleMetricsView.swift; sourceTree = "<group>"; };
+		300000000000000000000017 /* ExampleResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleResultView.swift; sourceTree = "<group>"; };
+		300000000000000000000018 /* ExampleTimestampFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTimestampFormatter.swift; sourceTree = "<group>"; };
+		300000000000000000000019 /* ExamplePresentationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplePresentationTests.swift; sourceTree = "<group>"; };
+		300000000000000000000020 /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
+		300000000000000000000021 /* ExampleImportedVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleImportedVideo.swift; sourceTree = "<group>"; };
+		300000000000000000000022 /* ExampleImportedVideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleImportedVideoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		500000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200000000000000000000003 /* PosterFrameKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200000000000000000000007 /* PosterFrameKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		600000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				600000000000000000000002 /* PosterFrameIOSExample */,
+				600000000000000000000003 /* PosterFrameIOSExampleTests */,
+				600000000000000000000005 /* Config */,
+				600000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		600000000000000000000002 /* PosterFrameIOSExample */ = {
+			isa = PBXGroup;
+			children = (
+				300000000000000000000001 /* PosterFrameIOSExampleApp.swift */,
+				300000000000000000000002 /* ExampleContentView.swift */,
+				300000000000000000000008 /* ExampleAnalysisState.swift */,
+				300000000000000000000009 /* ExampleSelection.swift */,
+				300000000000000000000010 /* ExampleViewModel.swift */,
+				300000000000000000000011 /* ExampleIdleView.swift */,
+				300000000000000000000012 /* ExampleLoadingView.swift */,
+				300000000000000000000013 /* ExampleErrorView.swift */,
+				300000000000000000000014 /* ExampleMetric.swift */,
+				300000000000000000000015 /* ExampleMetricView.swift */,
+				300000000000000000000016 /* ExampleMetricsView.swift */,
+				300000000000000000000017 /* ExampleResultView.swift */,
+				300000000000000000000018 /* ExampleTimestampFormatter.swift */,
+				300000000000000000000021 /* ExampleImportedVideo.swift */,
+			);
+			path = PosterFrameIOSExample;
+			sourceTree = "<group>";
+		};
+		600000000000000000000003 /* PosterFrameIOSExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				300000000000000000000003 /* PosterFrameIOSExampleTests.swift */,
+				300000000000000000000004 /* ExampleGeneratedVideo.swift */,
+				300000000000000000000005 /* ExamplePixelBufferFactory.swift */,
+				300000000000000000000019 /* ExamplePresentationTests.swift */,
+				300000000000000000000022 /* ExampleImportedVideoTests.swift */,
+			);
+			path = PosterFrameIOSExampleTests;
+			sourceTree = "<group>";
+		};
+		600000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				300000000000000000000006 /* PosterFrameIOSExample.app */,
+				300000000000000000000007 /* PosterFrameIOSExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		600000000000000000000005 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				300000000000000000000020 /* Signing.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100000000000000000000001 /* PosterFrameIOSExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00000000000000000000001 /* Build configuration list for PBXNativeTarget "PosterFrameIOSExample" */;
+			buildPhases = (
+				700000000000000000000001 /* Sources */,
+				500000000000000000000001 /* Frameworks */,
+				800000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PosterFrameIOSExample;
+			packageProductDependencies = (
+				E00000000000000000000001 /* PosterFrameKit */,
+			);
+			productName = PosterFrameIOSExample;
+			productReference = 300000000000000000000006 /* PosterFrameIOSExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		100000000000000000000002 /* PosterFrameIOSExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00000000000000000000002 /* Build configuration list for PBXNativeTarget "PosterFrameIOSExampleTests" */;
+			buildPhases = (
+				700000000000000000000002 /* Sources */,
+				500000000000000000000002 /* Frameworks */,
+				800000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = PosterFrameIOSExampleTests;
+			packageProductDependencies = (
+				E00000000000000000000001 /* PosterFrameKit */,
+			);
+			productName = PosterFrameIOSExampleTests;
+			productReference = 300000000000000000000007 /* PosterFrameIOSExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					100000000000000000000001 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					100000000000000000000002 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 100000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = D00000000000000000000003 /* Build configuration list for PBXProject "PosterFrameIOSExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 600000000000000000000001;
+			packageReferences = (
+				F00000000000000000000001 /* XCLocalSwiftPackageReference "../.." */,
+			);
+			productRefGroup = 600000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				100000000000000000000001 /* PosterFrameIOSExample */,
+				100000000000000000000002 /* PosterFrameIOSExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		800000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		700000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200000000000000000000001 /* PosterFrameIOSExampleApp.swift in Sources */,
+				200000000000000000000002 /* ExampleContentView.swift in Sources */,
+				200000000000000000000008 /* ExampleAnalysisState.swift in Sources */,
+				200000000000000000000009 /* ExampleSelection.swift in Sources */,
+				200000000000000000000010 /* ExampleViewModel.swift in Sources */,
+				200000000000000000000011 /* ExampleIdleView.swift in Sources */,
+				200000000000000000000012 /* ExampleLoadingView.swift in Sources */,
+				200000000000000000000013 /* ExampleErrorView.swift in Sources */,
+				200000000000000000000014 /* ExampleMetric.swift in Sources */,
+				200000000000000000000015 /* ExampleMetricView.swift in Sources */,
+				200000000000000000000016 /* ExampleMetricsView.swift in Sources */,
+				200000000000000000000017 /* ExampleResultView.swift in Sources */,
+				200000000000000000000018 /* ExampleTimestampFormatter.swift in Sources */,
+				200000000000000000000021 /* ExampleImportedVideo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200000000000000000000004 /* PosterFrameIOSExampleTests.swift in Sources */,
+				200000000000000000000005 /* ExampleGeneratedVideo.swift in Sources */,
+				200000000000000000000006 /* ExamplePixelBufferFactory.swift in Sources */,
+				200000000000000000000019 /* ExamplePresentationTests.swift in Sources */,
+				200000000000000000000022 /* ExampleImportedVideoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 100000000000000000000001 /* PosterFrameIOSExample */;
+			targetProxy = 400000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B00000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B00000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B00000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300000000000000000000020 /* Signing.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PosterFrameKit;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metaflash.PosterFrameIOSExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B00000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300000000000000000000020 /* Signing.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PosterFrameKit;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metaflash.PosterFrameIOSExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B00000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300000000000000000000020 /* Signing.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.metaflash.PosterFrameIOSExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PosterFrameIOSExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PosterFrameIOSExample";
+			};
+			name = Debug;
+		};
+		B00000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300000000000000000000020 /* Signing.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.metaflash.PosterFrameIOSExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PosterFrameIOSExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PosterFrameIOSExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D00000000000000000000001 /* Build configuration list for PBXNativeTarget "PosterFrameIOSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00000000000000000000003 /* Debug */,
+				B00000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00000000000000000000002 /* Build configuration list for PBXNativeTarget "PosterFrameIOSExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00000000000000000000005 /* Debug */,
+				B00000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00000000000000000000003 /* Build configuration list for PBXProject "PosterFrameIOSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00000000000000000000001 /* Debug */,
+				B00000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F00000000000000000000001 /* XCLocalSwiftPackageReference "../.." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E00000000000000000000001 /* PosterFrameKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F00000000000000000000001 /* XCLocalSwiftPackageReference "../.." */;
+			productName = PosterFrameKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 900000000000000000000001 /* Project object */;
+}

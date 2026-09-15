@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "identifier": "tears-of-steel-live-action-subtitles-v1",
+  "rendererVersion": 1,
+  "sourceFixtureID": "tears-of-steel",
+  "sourceVideoPath": "Benchmarks/.fixtures/sources/tears_of_steel_720p.mov",
+  "subtitleDirectory": "Benchmarks/.fixtures/subtitles",
+  "resultDirectory": "Benchmarks/.subtitle-results",
+  "source": {
+    "title": "Tears of Steel",
+    "creator": "Blender Foundation",
+    "projectURL": "https://mango.blender.org/",
+    "license": {
+      "spdx": "CC-BY-3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "(c) Blender Foundation | mango.blender.org"
+    }
+  },
+  "subtitleSources": [
+    {
+      "id": "en",
+      "language": "en",
+      "downloadURL": "https://download.blender.org/demo/movies/ToS/subtitles/TOS-en.srt",
+      "fileName": "TOS-en.srt",
+      "expectedBytes": 4764,
+      "sha256": "ce9578f6fe098a5821045a38884b229160f9e7ba27890448a92f5be330c6e6fe"
+    },
+    {
+      "id": "de",
+      "language": "de",
+      "downloadURL": "https://download.blender.org/demo/movies/ToS/subtitles/TOS-de.srt",
+      "fileName": "TOS-de.srt",
+      "expectedBytes": 4851,
+      "sha256": "666685daa9064a5a59144e47bddd2d570bbdda199df6e4e39f3273e479ab1f4b"
+    }
+  ],
+  "variants": [
+    {
+      "id": "clean",
+      "subtitleSourceID": null,
+      "style": "clean"
+    },
+    {
+      "id": "english-outline",
+      "subtitleSourceID": "en",
+      "style": "outline"
+    },
+    {
+      "id": "german-outline",
+      "subtitleSourceID": "de",
+      "style": "outline"
+    },
+    {
+      "id": "english-boxed",
+      "subtitleSourceID": "en",
+      "style": "boxed"
+    }
+  ],
+  "samples": [
+    {
+      "id": "pre-dialogue-control",
+      "sourceTimeSeconds": 20.5,
+      "expectsSubtitleCue": false,
+      "sourceExpectation": "unwanted-lower-third",
+      "tags": ["embedded-credit", "dark-background"]
+    },
+    {
+      "id": "short-single-line",
+      "sourceTimeSeconds": 23.5,
+      "expectsSubtitleCue": true,
+      "sourceExpectation": "clean",
+      "tags": ["one-line", "short"]
+    },
+    {
+      "id": "long-single-line",
+      "sourceTimeSeconds": 26.0,
+      "expectsSubtitleCue": true,
+      "sourceExpectation": "clean",
+      "tags": ["one-line", "long"]
+    },
+    {
+      "id": "two-line-dialogue",
+      "sourceTimeSeconds": 28.5,
+      "expectsSubtitleCue": true,
+      "sourceExpectation": "clean",
+      "tags": ["two-line", "dialogue"]
+    },
+    {
+      "id": "two-line-bright-background",
+      "sourceTimeSeconds": 32.0,
+      "expectsSubtitleCue": true,
+      "sourceExpectation": "clean",
+      "tags": ["two-line", "bright-background"]
+    },
+    {
+      "id": "single-line-close-up",
+      "sourceTimeSeconds": 35.0,
+      "expectsSubtitleCue": true,
+      "sourceExpectation": "clean",
+      "tags": ["one-line", "face"]
+    },
+    {
+      "id": "short-exclamation",
+      "sourceTimeSeconds": 37.5,
+      "expectsSubtitleCue": true,
+      "sourceExpectation": "clean",
+      "tags": ["one-line", "short"]
+    },
+    {
+      "id": "two-line-motion",
+      "sourceTimeSeconds": 39.5,
+      "expectsSubtitleCue": true,
+      "sourceExpectation": "clean",
+      "tags": ["two-line", "motion"]
+    },
+    {
+      "id": "scene-title-overlap",
+      "sourceTimeSeconds": 43.0,
+      "expectsSubtitleCue": true,
+      "sourceExpectation": "clean",
+      "tags": ["two-line", "scene-title", "ambiguity"]
+    },
+    {
+      "id": "between-cues-control",
+      "sourceTimeSeconds": 47.5,
+      "expectsSubtitleCue": false,
+      "sourceExpectation": "clean",
+      "tags": ["clean-gap", "face"]
+    },
+    {
+      "id": "technical-single-line",
+      "sourceTimeSeconds": 51.5,
+      "expectsSubtitleCue": true,
+      "sourceExpectation": "clean",
+      "tags": ["one-line", "technical-text"]
+    },
+    {
+      "id": "long-gap-control",
+      "sourceTimeSeconds": 56.0,
+      "expectsSubtitleCue": false,
+      "sourceExpectation": "ambiguous",
+      "tags": ["scene-interface", "complex-background", "ambiguity"]
+    },
+    {
+      "id": "late-single-line",
+      "sourceTimeSeconds": 62.0,
+      "expectsSubtitleCue": true,
+      "sourceExpectation": "clean",
+      "tags": ["one-line", "dark-background"]
+    }
+  ]
+}

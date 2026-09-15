@@ -1,0 +1,323 @@
+{
+  "configuration" : {
+    "avoidsSubtitles" : true,
+    "candidateCount" : 24,
+    "exactTimeTolerance" : true,
+    "excludedRanges" : [
+
+    ],
+    "outputHeight" : 720,
+    "outputWidth" : 1280,
+    "prefersAesthetics" : false,
+    "prefersFaces" : false,
+    "profile" : "animation",
+    "residentMemorySamplingIntervalMilliseconds" : 2,
+    "searchRange" : [
+      0.08,
+      0.9
+    ],
+    "subtitleCandidateCount" : 5,
+    "subtitleMaximumPenalty" : 0.08
+  },
+  "fixture" : {
+    "codec" : "avc1",
+    "durationSeconds" : 30,
+    "framesPerSecond" : 12,
+    "generated" : true,
+    "height" : 720,
+    "identifier" : "generated-h264-1280x720-30s-subtitle-calibration-v3",
+    "width" : 1280
+  },
+  "generatedAt" : "2026-09-07T11:16:43Z",
+  "label" : "subtitle-calibration-v3-on",
+  "measurements" : [
+    {
+      "decoderLaneCount" : 4,
+      "processColdMedianMilliseconds" : 279.179708,
+      "processColdMedianPeakResidentBytes" : 174571520,
+      "processColdMedianPeakResidentIncreaseBytes" : 171409408,
+      "processColdRuns" : [
+        {
+          "adjustedScore" : 0.33301762191127904,
+          "aestheticAdjustment" : 0,
+          "endToEndMilliseconds" : 273.453458,
+          "faceCompositionBonus" : 0,
+          "memory" : {
+            "endingResidentBytes" : 170901504,
+            "peakResidentIncreaseBytes" : 171409408,
+            "sampledPeakResidentBytes" : 174571520,
+            "startingResidentBytes" : 3162112
+          },
+          "performance" : {
+            "aestheticAnalysisMilliseconds" : 0,
+            "aestheticAnalyzedFrameCount" : 0,
+            "analysisAndRankingMilliseconds" : 4.400414999999999,
+            "analyzedFrameCount" : 24,
+            "decodedFrameCount" : 24,
+            "faceAnalysisMilliseconds" : 0,
+            "faceAnalyzedFrameCount" : 0,
+            "imageConversionMilliseconds" : 86.408,
+            "metadataMilliseconds" : 1.383042,
+            "peakConcurrentDecodes" : 4,
+            "resultImageConversionMilliseconds" : 12.069292,
+            "seekAndDecodeMilliseconds" : 778.7415009999996,
+            "subtitleAccurateFallbackCount" : 0,
+            "subtitleAnalysisMilliseconds" : 26.884584,
+            "subtitleAnalyzedFrameCount" : 2
+          },
+          "score" : 0.33301762191127904,
+          "selectedTimeSeconds" : 19.5,
+          "subtitlePenalty" : 0
+        },
+        {
+          "adjustedScore" : 0.33301762191127904,
+          "aestheticAdjustment" : 0,
+          "endToEndMilliseconds" : 279.179708,
+          "faceCompositionBonus" : 0,
+          "memory" : {
+            "endingResidentBytes" : 174096384,
+            "peakResidentIncreaseBytes" : 174587904,
+            "sampledPeakResidentBytes" : 177766400,
+            "startingResidentBytes" : 3178496
+          },
+          "performance" : {
+            "aestheticAnalysisMilliseconds" : 0,
+            "aestheticAnalyzedFrameCount" : 0,
+            "analysisAndRankingMilliseconds" : 4.3247089999999995,
+            "analyzedFrameCount" : 24,
+            "decodedFrameCount" : 24,
+            "faceAnalysisMilliseconds" : 0,
+            "faceAnalyzedFrameCount" : 0,
+            "imageConversionMilliseconds" : 88.76945799999999,
+            "metadataMilliseconds" : 1.454,
+            "peakConcurrentDecodes" : 4,
+            "resultImageConversionMilliseconds" : 11.56375,
+            "seekAndDecodeMilliseconds" : 839.2552499999999,
+            "subtitleAccurateFallbackCount" : 0,
+            "subtitleAnalysisMilliseconds" : 23.218415999999998,
+            "subtitleAnalyzedFrameCount" : 2
+          },
+          "score" : 0.33301762191127904,
+          "selectedTimeSeconds" : 19.5,
+          "subtitlePenalty" : 0
+        },
+        {
+          "adjustedScore" : 0.33301762191127904,
+          "aestheticAdjustment" : 0,
+          "endToEndMilliseconds" : 282.594292,
+          "faceCompositionBonus" : 0,
+          "memory" : {
+            "endingResidentBytes" : 164200448,
+            "peakResidentIncreaseBytes" : 160989184,
+            "sampledPeakResidentBytes" : 164200448,
+            "startingResidentBytes" : 3211264
+          },
+          "performance" : {
+            "aestheticAnalysisMilliseconds" : 0,
+            "aestheticAnalyzedFrameCount" : 0,
+            "analysisAndRankingMilliseconds" : 4.1806659999999995,
+            "analyzedFrameCount" : 24,
+            "decodedFrameCount" : 24,
+            "faceAnalysisMilliseconds" : 0,
+            "faceAnalyzedFrameCount" : 0,
+            "imageConversionMilliseconds" : 85.96633299999999,
+            "metadataMilliseconds" : 1.412084,
+            "peakConcurrentDecodes" : 4,
+            "resultImageConversionMilliseconds" : 13.6585,
+            "seekAndDecodeMilliseconds" : 838.0639160000001,
+            "subtitleAccurateFallbackCount" : 0,
+            "subtitleAnalysisMilliseconds" : 23.759166,
+            "subtitleAnalyzedFrameCount" : 2
+          },
+          "score" : 0.33301762191127904,
+          "selectedTimeSeconds" : 19.5,
+          "subtitlePenalty" : 0
+        }
+      ],
+      "processWarmMedianMilliseconds" : 147.186167,
+      "processWarmMedianPeakResidentBytes" : 232013824,
+      "processWarmMedianPeakResidentIncreaseBytes" : 50659328,
+      "processWarmRuns" : [
+        {
+          "adjustedScore" : 0.33301762191127904,
+          "aestheticAdjustment" : 0,
+          "endToEndMilliseconds" : 148.6895,
+          "faceCompositionBonus" : 0,
+          "memory" : {
+            "endingResidentBytes" : 241139712,
+            "peakResidentIncreaseBytes" : 65830912,
+            "sampledPeakResidentBytes" : 243384320,
+            "startingResidentBytes" : 177553408
+          },
+          "performance" : {
+            "aestheticAnalysisMilliseconds" : 0,
+            "aestheticAnalyzedFrameCount" : 0,
+            "analysisAndRankingMilliseconds" : 4.137372,
+            "analyzedFrameCount" : 24,
+            "decodedFrameCount" : 24,
+            "faceAnalysisMilliseconds" : 0,
+            "faceAnalyzedFrameCount" : 0,
+            "imageConversionMilliseconds" : 88.965795,
+            "metadataMilliseconds" : 0.97575,
+            "peakConcurrentDecodes" : 4,
+            "resultImageConversionMilliseconds" : 2.569958,
+            "seekAndDecodeMilliseconds" : 377.543044,
+            "subtitleAccurateFallbackCount" : 0,
+            "subtitleAnalysisMilliseconds" : 19.928667,
+            "subtitleAnalyzedFrameCount" : 2
+          },
+          "score" : 0.33301762191127904,
+          "selectedTimeSeconds" : 19.5,
+          "subtitlePenalty" : 0
+        },
+        {
+          "adjustedScore" : 0.33301762191127904,
+          "aestheticAdjustment" : 0,
+          "endToEndMilliseconds" : 147.186167,
+          "faceCompositionBonus" : 0,
+          "memory" : {
+            "endingResidentBytes" : 219709440,
+            "peakResidentIncreaseBytes" : 47906816,
+            "sampledPeakResidentBytes" : 221495296,
+            "startingResidentBytes" : 173588480
+          },
+          "performance" : {
+            "aestheticAnalysisMilliseconds" : 0,
+            "aestheticAnalyzedFrameCount" : 0,
+            "analysisAndRankingMilliseconds" : 4.060916,
+            "analyzedFrameCount" : 24,
+            "decodedFrameCount" : 24,
+            "faceAnalysisMilliseconds" : 0,
+            "faceAnalyzedFrameCount" : 0,
+            "imageConversionMilliseconds" : 86.09429100000001,
+            "metadataMilliseconds" : 1.116375,
+            "peakConcurrentDecodes" : 4,
+            "resultImageConversionMilliseconds" : 2.542125,
+            "seekAndDecodeMilliseconds" : 386.19566699999996,
+            "subtitleAccurateFallbackCount" : 0,
+            "subtitleAnalysisMilliseconds" : 17.637667,
+            "subtitleAnalyzedFrameCount" : 2
+          },
+          "score" : 0.33301762191127904,
+          "selectedTimeSeconds" : 19.5,
+          "subtitlePenalty" : 0
+        },
+        {
+          "adjustedScore" : 0.33301762191127904,
+          "aestheticAdjustment" : 0,
+          "endToEndMilliseconds" : 137.758041,
+          "faceCompositionBonus" : 0,
+          "memory" : {
+            "endingResidentBytes" : 232013824,
+            "peakResidentIncreaseBytes" : 69140480,
+            "sampledPeakResidentBytes" : 232013824,
+            "startingResidentBytes" : 162873344
+          },
+          "performance" : {
+            "aestheticAnalysisMilliseconds" : 0,
+            "aestheticAnalyzedFrameCount" : 0,
+            "analysisAndRankingMilliseconds" : 4.354415,
+            "analyzedFrameCount" : 24,
+            "decodedFrameCount" : 24,
+            "faceAnalysisMilliseconds" : 0,
+            "faceAnalyzedFrameCount" : 0,
+            "imageConversionMilliseconds" : 86.337079,
+            "metadataMilliseconds" : 1.097334,
+            "peakConcurrentDecodes" : 4,
+            "resultImageConversionMilliseconds" : 2.512,
+            "seekAndDecodeMilliseconds" : 345.150087,
+            "subtitleAccurateFallbackCount" : 0,
+            "subtitleAnalysisMilliseconds" : 17.306959,
+            "subtitleAnalyzedFrameCount" : 2
+          },
+          "score" : 0.33301762191127904,
+          "selectedTimeSeconds" : 19.5,
+          "subtitlePenalty" : 0
+        },
+        {
+          "adjustedScore" : 0.33301762191127904,
+          "aestheticAdjustment" : 0,
+          "endToEndMilliseconds" : 140.509292,
+          "faceCompositionBonus" : 0,
+          "memory" : {
+            "endingResidentBytes" : 218791936,
+            "peakResidentIncreaseBytes" : 45481984,
+            "sampledPeakResidentBytes" : 219021312,
+            "startingResidentBytes" : 173539328
+          },
+          "performance" : {
+            "aestheticAnalysisMilliseconds" : 0,
+            "aestheticAnalyzedFrameCount" : 0,
+            "analysisAndRankingMilliseconds" : 4.008084,
+            "analyzedFrameCount" : 24,
+            "decodedFrameCount" : 24,
+            "faceAnalysisMilliseconds" : 0,
+            "faceAnalyzedFrameCount" : 0,
+            "imageConversionMilliseconds" : 83.58333300000001,
+            "metadataMilliseconds" : 1.042208,
+            "peakConcurrentDecodes" : 4,
+            "resultImageConversionMilliseconds" : 2.363667,
+            "seekAndDecodeMilliseconds" : 361.0814190000001,
+            "subtitleAccurateFallbackCount" : 0,
+            "subtitleAnalysisMilliseconds" : 17.298042,
+            "subtitleAnalyzedFrameCount" : 2
+          },
+          "score" : 0.33301762191127904,
+          "selectedTimeSeconds" : 19.5,
+          "subtitlePenalty" : 0
+        },
+        {
+          "adjustedScore" : 0.33301762191127904,
+          "aestheticAdjustment" : 0,
+          "endToEndMilliseconds" : 150.951875,
+          "faceCompositionBonus" : 0,
+          "memory" : {
+            "endingResidentBytes" : 232472576,
+            "peakResidentIncreaseBytes" : 50659328,
+            "sampledPeakResidentBytes" : 235192320,
+            "startingResidentBytes" : 184532992
+          },
+          "performance" : {
+            "aestheticAnalysisMilliseconds" : 0,
+            "aestheticAnalyzedFrameCount" : 0,
+            "analysisAndRankingMilliseconds" : 4.0676250000000005,
+            "analyzedFrameCount" : 24,
+            "decodedFrameCount" : 24,
+            "faceAnalysisMilliseconds" : 0,
+            "faceAnalyzedFrameCount" : 0,
+            "imageConversionMilliseconds" : 86.73054,
+            "metadataMilliseconds" : 1.010375,
+            "peakConcurrentDecodes" : 4,
+            "resultImageConversionMilliseconds" : 2.865459,
+            "seekAndDecodeMilliseconds" : 392.84524600000003,
+            "subtitleAccurateFallbackCount" : 0,
+            "subtitleAnalysisMilliseconds" : 18.752709,
+            "subtitleAnalyzedFrameCount" : 2
+          },
+          "score" : 0.33301762191127904,
+          "selectedTimeSeconds" : 19.5,
+          "subtitlePenalty" : 0
+        }
+      ]
+    }
+  ],
+  "notes" : [
+    "Each measurement runs in a worker process; fixture generation is excluded.",
+    "Each processColdRun uses a fresh worker without a selection warm-up.",
+    "Each processWarmRun uses a fresh worker and performs one unmeasured selection before measurement.",
+    "The operating system filesystem cache is shared and uncontrolled; process-cold does not mean disk-cache-cold.",
+    "Resident memory is sampled every 2 ms only during the measured selection; peakResidentIncreaseBytes is relative to that selection's starting resident size.",
+    "Stage durations are measured directly and are cumulative across decoder lanes.",
+    "Subtitle analysis inspects only the lower third of the leading candidates when enabled.",
+    "Face analysis inspects only the bounded leading candidate group when enabled.",
+    "Aesthetic analysis uses Vision revision 1 on supported operating systems and inspects only the bounded leading candidate group when enabled."
+  ],
+  "schemaVersion" : 7,
+  "system" : {
+    "architecture" : "arm64",
+    "chip" : "Apple M1 Pro",
+    "logicalCoreCount" : 10,
+    "memoryBytes" : 34359738368,
+    "operatingSystem" : "Version 15.7.4 (Build 24G517)"
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "aestheticCandidateCount" : 8,
+  "candidateCount" : 24,
+  "comparisonPolicy" : "Midpoint decodes the fixed 50% position independently; each fixture uses its declared profile; PosterFrameKit uses the selected profile, an enabled face preference with its eight-candidate default, and Vision-first aesthetic preference over at most 8 leading candidates; Vision ranks all shared candidates by overallScore; hybrid equally blends normalized Vision and PosterFrameKit base scores.",
+  "fixtures" : [
+    {
+      "captureMilliseconds" : 1144.209458,
+      "decodedCandidateCount" : 22,
+      "hybrid" : {
+        "acceptable" : true,
+        "imagePath" : "morevna-demo/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.4537321275732713,
+        "score" : 0.5946639153491357,
+        "timeSeconds" : 95.125,
+        "visionScore" : 0.47119140625
+      },
+      "id" : "morevna-demo",
+      "midpoint" : {
+        "acceptable" : false,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "morevna-demo/midpoint.png",
+        "posterFrameScore" : 0.32017245014845,
+        "score" : 0.32017245014845,
+        "timeSeconds" : 59.958333333333336
+      },
+      "posterFrameKit" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "morevna-demo/posterframekit.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.4276132641294851,
+        "score" : 0.7440185546875,
+        "timeSeconds" : 73.75,
+        "visionScore" : 0.488037109375
+      },
+      "profile" : "animation",
+      "vision" : {
+        "acceptable" : true,
+        "imagePath" : "morevna-demo/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.4276132641294851,
+        "score" : 0.488037109375,
+        "timeSeconds" : 73.75,
+        "visionScore" : 0.488037109375
+      },
+      "visionAnalysisMilliseconds" : 119.542375
+    },
+    {
+      "captureMilliseconds" : 770.149625,
+      "decodedCandidateCount" : 22,
+      "hybrid" : {
+        "acceptable" : true,
+        "imagePath" : "big-buck-bunny/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.414363174104929,
+        "score" : 0.6642128370524645,
+        "timeSeconds" : 108,
+        "visionScore" : 0.828125
+      },
+      "id" : "big-buck-bunny",
+      "midpoint" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "big-buck-bunny/midpoint.png",
+        "posterFrameScore" : 0.32145923822501143,
+        "score" : 0.32145923822501143,
+        "timeSeconds" : 59.958333333333336
+      },
+      "posterFrameKit" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "big-buck-bunny/posterframekit.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.414363174104929,
+        "score" : 0.9140625,
+        "timeSeconds" : 108,
+        "visionScore" : 0.828125
+      },
+      "profile" : "animation",
+      "vision" : {
+        "acceptable" : true,
+        "imagePath" : "big-buck-bunny/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.414363174104929,
+        "score" : 0.828125,
+        "timeSeconds" : 108,
+        "visionScore" : 0.828125
+      },
+      "visionAnalysisMilliseconds" : 138.9055
+    },
+    {
+      "captureMilliseconds" : 647.84425,
+      "decodedCandidateCount" : 22,
+      "hybrid" : {
+        "acceptable" : true,
+        "imagePath" : "sintel/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.479876778642645,
+        "score" : 0.7185760846338225,
+        "timeSeconds" : 86.58333333333333,
+        "visionScore" : 0.91455078125
+      },
+      "id" : "sintel",
+      "midpoint" : {
+        "acceptable" : false,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "sintel/midpoint.png",
+        "posterFrameScore" : 0.4673106795313334,
+        "score" : 0.4673106795313334,
+        "timeSeconds" : 59.958333333333336
+      },
+      "posterFrameKit" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0.029169388998526075,
+        "imagePath" : "sintel/posterframekit.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.479876778642645,
+        "score" : 0.9864447796235261,
+        "timeSeconds" : 86.58333333333333,
+        "visionScore" : 0.91455078125
+      },
+      "profile" : "animation",
+      "vision" : {
+        "acceptable" : true,
+        "imagePath" : "sintel/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.479876778642645,
+        "score" : 0.91455078125,
+        "timeSeconds" : 86.58333333333333,
+        "visionScore" : 0.91455078125
+      },
+      "visionAnalysisMilliseconds" : 113.698416
+    },
+    {
+      "captureMilliseconds" : 898.362667,
+      "decodedCandidateCount" : 22,
+      "hybrid" : {
+        "acceptable" : true,
+        "imagePath" : "tears-of-steel/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.4542249100761414,
+        "score" : 0.6997687050380708,
+        "timeSeconds" : 35.25,
+        "visionScore" : 0.890625
+      },
+      "id" : "tears-of-steel",
+      "midpoint" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "tears-of-steel/midpoint.png",
+        "posterFrameScore" : 0.46663078935194835,
+        "score" : 0.46663078935194835,
+        "timeSeconds" : 59.958333333333336
+      },
+      "posterFrameKit" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "tears-of-steel/posterframekit.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.4542249100761414,
+        "score" : 0.9453125,
+        "timeSeconds" : 35.25,
+        "visionScore" : 0.890625
+      },
+      "profile" : "general",
+      "vision" : {
+        "acceptable" : true,
+        "imagePath" : "tears-of-steel/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.4114085085665662,
+        "score" : 0.8984375,
+        "timeSeconds" : 86.58333333333333,
+        "visionScore" : 0.8984375
+      },
+      "visionAnalysisMilliseconds" : 122.561042
+    },
+    {
+      "captureMilliseconds" : 962.085792,
+      "decodedCandidateCount" : 22,
+      "hybrid" : {
+        "acceptable" : true,
+        "imagePath" : "cosmos-laundromat/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.39866525116298573,
+        "score" : 0.6296304771439929,
+        "timeSeconds" : 9.583333333333334,
+        "visionScore" : 0.72119140625
+      },
+      "id" : "cosmos-laundromat",
+      "midpoint" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "cosmos-laundromat/midpoint.png",
+        "posterFrameScore" : 0.3543386847466182,
+        "score" : 0.3543386847466182,
+        "timeSeconds" : 59.958333333333336
+      },
+      "posterFrameKit" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0.02441836025490255,
+        "imagePath" : "cosmos-laundromat/posterframekit.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.3486403216957529,
+        "score" : 0.8903851571299026,
+        "timeSeconds" : 90.875,
+        "visionScore" : 0.73193359375
+      },
+      "profile" : "animation",
+      "vision" : {
+        "acceptable" : true,
+        "imagePath" : "cosmos-laundromat/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.3173992378984552,
+        "score" : 0.77734375,
+        "timeSeconds" : 26.708333333333332,
+        "visionScore" : 0.77734375
+      },
+      "visionAnalysisMilliseconds" : 119.7185
+    }
+  ],
+  "generatedAt" : "2026-09-14T14:57:49Z",
+  "schemaVersion" : 5,
+  "system" : {
+    "architecture" : "arm64",
+    "operatingSystem" : "Version 15.7.4 (Build 24G517)",
+    "physicalMemoryBytes" : 34359738368,
+    "processor" : "Apple M1 Pro",
+    "processorCount" : 10
+  }
+}

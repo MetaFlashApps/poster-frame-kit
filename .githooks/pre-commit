@@ -1,0 +1,7 @@
+#!/bin/bash
+set -euo pipefail
+
+HOOK_DIRECTORY="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIRECTORY="$(cd "$HOOK_DIRECTORY/.." && pwd)"
+
+exec "$PROJECT_DIRECTORY/Scripts/check-release-hygiene.sh"

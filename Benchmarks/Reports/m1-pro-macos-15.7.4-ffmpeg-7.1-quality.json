@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-06T15:20:03.766986+00:00",
+  "system": {
+    "platform": "macOS-15.7.4-x86_64-i386-64bit-Mach-O",
+    "architecture": "x86_64",
+    "processor": "Apple M1 Pro"
+  },
+  "ffmpegVersion": "ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers",
+  "ffmpegBinary": "Mach-O 64-bit executable x86_64",
+  "imageDirectory": "Benchmarks/.quality-results/ffmpeg-full",
+  "policy": "FFmpeg thumbnail filter over every normalized video frame as one batch; wall time includes complete software decode, histogram selection, and PNG output",
+  "fixtures": [
+    {
+      "id": "morevna-demo",
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "averageFrameRate": "24/1",
+      "durationSeconds": 120.0,
+      "decodedFrameCount": 2880,
+      "selectedTimeSeconds": 110.625,
+      "acceptable": true,
+      "wallMilliseconds": 2946.270125103183,
+      "imagePath": "morevna-demo.png"
+    },
+    {
+      "id": "big-buck-bunny",
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "averageFrameRate": "24/1",
+      "durationSeconds": 120.0,
+      "decodedFrameCount": 2880,
+      "selectedTimeSeconds": 23.166667,
+      "acceptable": false,
+      "wallMilliseconds": 2631.9562919670716,
+      "imagePath": "big-buck-bunny.png"
+    },
+    {
+      "id": "sintel",
+      "codec": "h264",
+      "width": 1280,
+      "height": 544,
+      "averageFrameRate": "24/1",
+      "durationSeconds": 120.0,
+      "decodedFrameCount": 2880,
+      "selectedTimeSeconds": 14.625,
+      "acceptable": false,
+      "wallMilliseconds": 2395.518457982689,
+      "imagePath": "sintel.png"
+    },
+    {
+      "id": "tears-of-steel",
+      "codec": "h264",
+      "width": 1280,
+      "height": 534,
+      "averageFrameRate": "24/1",
+      "durationSeconds": 120.0,
+      "decodedFrameCount": 2880,
+      "selectedTimeSeconds": 70.75,
+      "acceptable": true,
+      "wallMilliseconds": 2280.0092078978196,
+      "imagePath": "tears-of-steel.png"
+    },
+    {
+      "id": "cosmos-laundromat",
+      "codec": "h264",
+      "width": 1280,
+      "height": 536,
+      "averageFrameRate": "24/1",
+      "durationSeconds": 120.0,
+      "decodedFrameCount": 2880,
+      "selectedTimeSeconds": 110.625,
+      "acceptable": true,
+      "wallMilliseconds": 2502.110332949087,
+      "imagePath": "cosmos-laundromat.png"
+    }
+  ]
+}

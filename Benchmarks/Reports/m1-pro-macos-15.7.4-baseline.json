@@ -1,0 +1,110 @@
+{
+  "configuration" : {
+    "candidateCount" : 40,
+    "exactTimeTolerance" : true,
+    "outputHeight" : 720,
+    "outputWidth" : 1280,
+    "profile" : "animation",
+    "searchRange" : [
+      0.08,
+      0.9
+    ]
+  },
+  "fixture" : {
+    "codec" : "avc1",
+    "durationSeconds" : 30,
+    "framesPerSecond" : 12,
+    "generated" : true,
+    "height" : 720,
+    "identifier" : "generated-h264-1280x720-30s-v1",
+    "width" : 1280
+  },
+  "generatedAt" : "2026-08-20T14:47:58Z",
+  "label" : "baseline-sequential",
+  "measurements" : [
+    {
+      "decoderLaneCount" : 1,
+      "firstProcessRun" : {
+        "endToEndMilliseconds" : 717.227416,
+        "peakResidentBytes" : 177799168,
+        "performance" : {
+          "analysisAndRankingMilliseconds" : 6.128041,
+          "analyzedFrameCount" : 40,
+          "decodedFrameCount" : 40,
+          "imageConversionMilliseconds" : 122.03229100000001,
+          "metadataMilliseconds" : 1.999959,
+          "peakConcurrentDecodes" : 1,
+          "resultImageConversionMilliseconds" : 23.283583,
+          "seekAndDecodeMilliseconds" : 553.3242500000001
+        },
+        "score" : 0.34565136990946776,
+        "selectedTimeSeconds" : 9.333333333333334
+      },
+      "warmMedianMilliseconds" : 575.950417,
+      "warmProcessRuns" : [
+        {
+          "endToEndMilliseconds" : 568.758333,
+          "peakResidentBytes" : 182222848,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 5.820583999999999,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 122.22087300000001,
+            "metadataMilliseconds" : 1.551167,
+            "peakConcurrentDecodes" : 1,
+            "resultImageConversionMilliseconds" : 11.266791,
+            "seekAndDecodeMilliseconds" : 423.097666
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 575.950417,
+          "peakResidentBytes" : 189448192,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 5.888128000000001,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 122.08166899999995,
+            "metadataMilliseconds" : 2.060292,
+            "peakConcurrentDecodes" : 1,
+            "resultImageConversionMilliseconds" : 15.374458,
+            "seekAndDecodeMilliseconds" : 425.668416
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 592.057166,
+          "peakResidentBytes" : 186023936,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 5.962836000000001,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 122.63428699999999,
+            "metadataMilliseconds" : 1.465125,
+            "peakConcurrentDecodes" : 1,
+            "resultImageConversionMilliseconds" : 18.081125,
+            "seekAndDecodeMilliseconds" : 438.45912699999985
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        }
+      ]
+    }
+  ],
+  "notes" : [
+    "Each measurement runs in a worker process; fixture generation is excluded.",
+    "firstProcessRun is process-cold. Filesystem cache state is uncontrolled.",
+    "Each warmProcessRun performs one unmeasured selection before measurement.",
+    "Stage durations are measured directly and are cumulative across decoder lanes."
+  ],
+  "schemaVersion" : 1,
+  "system" : {
+    "architecture" : "arm64",
+    "chip" : "Apple M1 Pro",
+    "logicalCoreCount" : 10,
+    "memoryBytes" : 34359738368,
+    "operatingSystem" : "Version 15.7.4 (Build 24G517)"
+  }
+}

@@ -1,0 +1,448 @@
+{
+  "configuration" : {
+    "candidateCount" : 40,
+    "exactTimeTolerance" : true,
+    "outputHeight" : 720,
+    "outputWidth" : 1280,
+    "profile" : "animation",
+    "searchRange" : [
+      0.08,
+      0.9
+    ]
+  },
+  "fixture" : {
+    "codec" : "avc1",
+    "durationSeconds" : 30,
+    "framesPerSecond" : 12,
+    "generated" : true,
+    "height" : 720,
+    "identifier" : "generated-h264-1280x720-30s-v1",
+    "width" : 1280
+  },
+  "generatedAt" : "2026-08-20T15:10:45Z",
+  "label" : "bounded-decoder-lanes",
+  "measurements" : [
+    {
+      "decoderLaneCount" : 1,
+      "firstProcessRun" : {
+        "endToEndMilliseconds" : 846.609125,
+        "peakResidentBytes" : 171081728,
+        "performance" : {
+          "analysisAndRankingMilliseconds" : 5.976375999999999,
+          "analyzedFrameCount" : 40,
+          "decodedFrameCount" : 40,
+          "imageConversionMilliseconds" : 119.00491399999999,
+          "metadataMilliseconds" : 2.0695,
+          "peakConcurrentDecodes" : 1,
+          "resultImageConversionMilliseconds" : 20.69375,
+          "seekAndDecodeMilliseconds" : 692.1240030000001
+        },
+        "score" : 0.34565136990946776,
+        "selectedTimeSeconds" : 9.333333333333334
+      },
+      "warmMedianMilliseconds" : 714.977542,
+      "warmProcessRuns" : [
+        {
+          "endToEndMilliseconds" : 716.32525,
+          "peakResidentBytes" : 189448192,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 6.093042999999999,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 120.709167,
+            "metadataMilliseconds" : 1.537083,
+            "peakConcurrentDecodes" : 1,
+            "resultImageConversionMilliseconds" : 11.320042,
+            "seekAndDecodeMilliseconds" : 573.9227519999998
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 719.423959,
+          "peakResidentBytes" : 178520064,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 5.946086,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 119.19054100000002,
+            "metadataMilliseconds" : 1.474625,
+            "peakConcurrentDecodes" : 1,
+            "resultImageConversionMilliseconds" : 11.787125,
+            "seekAndDecodeMilliseconds" : 578.2462460000002
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 711.269625,
+          "peakResidentBytes" : 181862400,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 6.004542999999998,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 119.45783299999998,
+            "metadataMilliseconds" : 1.574584,
+            "peakConcurrentDecodes" : 1,
+            "resultImageConversionMilliseconds" : 11.714042,
+            "seekAndDecodeMilliseconds" : 569.4559179999998
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 714.977542,
+          "peakResidentBytes" : 189562880,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 5.997915000000002,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 118.852835,
+            "metadataMilliseconds" : 1.574875,
+            "peakConcurrentDecodes" : 1,
+            "resultImageConversionMilliseconds" : 11.942,
+            "seekAndDecodeMilliseconds" : 573.918541
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 712.984125,
+          "peakResidentBytes" : 178421760,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 5.960664999999999,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 119.720457,
+            "metadataMilliseconds" : 1.462166,
+            "peakConcurrentDecodes" : 1,
+            "resultImageConversionMilliseconds" : 11.459375,
+            "seekAndDecodeMilliseconds" : 571.5482929999998
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        }
+      ]
+    },
+    {
+      "decoderLaneCount" : 2,
+      "firstProcessRun" : {
+        "endToEndMilliseconds" : 524.290625,
+        "peakResidentBytes" : 192806912,
+        "performance" : {
+          "analysisAndRankingMilliseconds" : 6.260043999999999,
+          "analyzedFrameCount" : 40,
+          "decodedFrameCount" : 40,
+          "imageConversionMilliseconds" : 124.61300000000003,
+          "metadataMilliseconds" : 2.192375,
+          "peakConcurrentDecodes" : 2,
+          "resultImageConversionMilliseconds" : 16.1355,
+          "seekAndDecodeMilliseconds" : 836.833334
+        },
+        "score" : 0.34565136990946776,
+        "selectedTimeSeconds" : 9.333333333333334
+      },
+      "warmMedianMilliseconds" : 419.303875,
+      "warmProcessRuns" : [
+        {
+          "endToEndMilliseconds" : 405.095375,
+          "peakResidentBytes" : 212058112,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 6.488333000000002,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 126.433998,
+            "metadataMilliseconds" : 1.630125,
+            "peakConcurrentDecodes" : 2,
+            "resultImageConversionMilliseconds" : 12.206958,
+            "seekAndDecodeMilliseconds" : 613.2469569999997
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 415.331042,
+          "peakResidentBytes" : 208601088,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 6.3387069999999985,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 126.093002,
+            "metadataMilliseconds" : 1.53025,
+            "peakConcurrentDecodes" : 2,
+            "resultImageConversionMilliseconds" : 11.185667,
+            "seekAndDecodeMilliseconds" : 633.883043
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 424.764875,
+          "peakResidentBytes" : 205275136,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 6.3559969999999995,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 126.36867000000001,
+            "metadataMilliseconds" : 1.58425,
+            "peakConcurrentDecodes" : 2,
+            "resultImageConversionMilliseconds" : 11.408833,
+            "seekAndDecodeMilliseconds" : 652.21621
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 421.978917,
+          "peakResidentBytes" : 208273408,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 6.353499000000001,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 128.375208,
+            "metadataMilliseconds" : 1.593667,
+            "peakConcurrentDecodes" : 2,
+            "resultImageConversionMilliseconds" : 13.355,
+            "seekAndDecodeMilliseconds" : 641.295791
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 419.303875,
+          "peakResidentBytes" : 208650240,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 6.6443759999999985,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 133.39787500000003,
+            "metadataMilliseconds" : 1.509625,
+            "peakConcurrentDecodes" : 2,
+            "resultImageConversionMilliseconds" : 12.269083,
+            "seekAndDecodeMilliseconds" : 632.8107090000001
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        }
+      ]
+    },
+    {
+      "decoderLaneCount" : 3,
+      "firstProcessRun" : {
+        "endToEndMilliseconds" : 443.214792,
+        "peakResidentBytes" : 197197824,
+        "performance" : {
+          "analysisAndRankingMilliseconds" : 6.259584000000003,
+          "analyzedFrameCount" : 40,
+          "decodedFrameCount" : 40,
+          "imageConversionMilliseconds" : 137.58629200000004,
+          "metadataMilliseconds" : 1.999333,
+          "peakConcurrentDecodes" : 3,
+          "resultImageConversionMilliseconds" : 15.459458,
+          "seekAndDecodeMilliseconds" : 1062.6408749999998
+        },
+        "score" : 0.34565136990946776,
+        "selectedTimeSeconds" : 9.333333333333334
+      },
+      "warmMedianMilliseconds" : 314.126125,
+      "warmProcessRuns" : [
+        {
+          "endToEndMilliseconds" : 289.316833,
+          "peakResidentBytes" : 208568320,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 6.186788999999998,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 135.369502,
+            "metadataMilliseconds" : 1.614125,
+            "peakConcurrentDecodes" : 3,
+            "resultImageConversionMilliseconds" : 11.824625,
+            "seekAndDecodeMilliseconds" : 655.7429139999999
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 311.094542,
+          "peakResidentBytes" : 212385792,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 6.238081000000001,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 136.64587600000004,
+            "metadataMilliseconds" : 1.520459,
+            "peakConcurrentDecodes" : 3,
+            "resultImageConversionMilliseconds" : 12.422041,
+            "seekAndDecodeMilliseconds" : 683.4424999999999
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 329.358791,
+          "peakResidentBytes" : 208896000,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 6.2015389999999995,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 136.15107800000004,
+            "metadataMilliseconds" : 1.890541,
+            "peakConcurrentDecodes" : 3,
+            "resultImageConversionMilliseconds" : 13.454291,
+            "seekAndDecodeMilliseconds" : 731.9577909999999
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 314.126125,
+          "peakResidentBytes" : 205094912,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 6.130872000000001,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 135.646504,
+            "metadataMilliseconds" : 1.197709,
+            "peakConcurrentDecodes" : 3,
+            "resultImageConversionMilliseconds" : 11.435792,
+            "seekAndDecodeMilliseconds" : 702.49146
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 345.190333,
+          "peakResidentBytes" : 201261056,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 6.3189160000000015,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 136.24412400000003,
+            "metadataMilliseconds" : 1.475084,
+            "peakConcurrentDecodes" : 3,
+            "resultImageConversionMilliseconds" : 11.478167,
+            "seekAndDecodeMilliseconds" : 806.2164590000002
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        }
+      ]
+    },
+    {
+      "decoderLaneCount" : 4,
+      "firstProcessRun" : {
+        "endToEndMilliseconds" : 357.17375,
+        "peakResidentBytes" : 208584704,
+        "performance" : {
+          "analysisAndRankingMilliseconds" : 6.109581999999999,
+          "analyzedFrameCount" : 40,
+          "decodedFrameCount" : 40,
+          "imageConversionMilliseconds" : 144.063793,
+          "metadataMilliseconds" : 1.88375,
+          "peakConcurrentDecodes" : 4,
+          "resultImageConversionMilliseconds" : 15.348208,
+          "seekAndDecodeMilliseconds" : 1138.7204160000001
+        },
+        "score" : 0.34565136990946776,
+        "selectedTimeSeconds" : 9.333333333333334
+      },
+      "warmMedianMilliseconds" : 233.630958,
+      "warmProcessRuns" : [
+        {
+          "endToEndMilliseconds" : 232.8845,
+          "peakResidentBytes" : 216350720,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 6.221040000000001,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 145.037047,
+            "metadataMilliseconds" : 1.588583,
+            "peakConcurrentDecodes" : 4,
+            "resultImageConversionMilliseconds" : 12.400166,
+            "seekAndDecodeMilliseconds" : 674.6188769999999
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 226.483167,
+          "peakResidentBytes" : 208945152,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 6.218210000000001,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 152.41079199999996,
+            "metadataMilliseconds" : 1.629916,
+            "peakConcurrentDecodes" : 4,
+            "resultImageConversionMilliseconds" : 11.187708,
+            "seekAndDecodeMilliseconds" : 642.93221
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 233.630958,
+          "peakResidentBytes" : 223346688,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 6.2682459999999995,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 147.69904499999998,
+            "metadataMilliseconds" : 1.693542,
+            "peakConcurrentDecodes" : 4,
+            "resultImageConversionMilliseconds" : 11.753417,
+            "seekAndDecodeMilliseconds" : 676.04975
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 238.983834,
+          "peakResidentBytes" : 212926464,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 6.236665000000002,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 148.96375200000006,
+            "metadataMilliseconds" : 1.46425,
+            "peakConcurrentDecodes" : 4,
+            "resultImageConversionMilliseconds" : 11.908916,
+            "seekAndDecodeMilliseconds" : 674.3481650000001
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        },
+        {
+          "endToEndMilliseconds" : 233.975833,
+          "peakResidentBytes" : 209010688,
+          "performance" : {
+            "analysisAndRankingMilliseconds" : 6.204912,
+            "analyzedFrameCount" : 40,
+            "decodedFrameCount" : 40,
+            "imageConversionMilliseconds" : 145.79950199999996,
+            "metadataMilliseconds" : 1.588292,
+            "peakConcurrentDecodes" : 4,
+            "resultImageConversionMilliseconds" : 11.816333,
+            "seekAndDecodeMilliseconds" : 679.298916
+          },
+          "score" : 0.34565136990946776,
+          "selectedTimeSeconds" : 9.333333333333334
+        }
+      ]
+    }
+  ],
+  "notes" : [
+    "Each measurement runs in a worker process; fixture generation is excluded.",
+    "firstProcessRun is process-cold. Filesystem cache state is uncontrolled.",
+    "Each warmProcessRun performs one unmeasured selection before measurement.",
+    "Stage durations are measured directly and are cumulative across decoder lanes."
+  ],
+  "schemaVersion" : 1,
+  "system" : {
+    "architecture" : "arm64",
+    "chip" : "Apple M1 Pro",
+    "logicalCoreCount" : 10,
+    "memoryBytes" : 34359738368,
+    "operatingSystem" : "Version 15.7.4 (Build 24G517)"
+  }
+}

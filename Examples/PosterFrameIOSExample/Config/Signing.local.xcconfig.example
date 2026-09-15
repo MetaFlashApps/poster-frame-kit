@@ -1,0 +1,2 @@
+// Copy this file to Signing.local.xcconfig for physical-device runs.
+PFK_DEVELOPMENT_TEAM = YOUR_TEAM_ID

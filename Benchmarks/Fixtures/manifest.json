@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 2,
+  "sourceCacheDirectory": "Benchmarks/.fixtures/sources",
+  "outputDirectory": "Benchmarks/.fixtures/clips",
+  "fixtures": [
+    {
+      "id": "morevna-demo",
+      "kind": "downloaded",
+      "status": "active",
+      "tier": "core",
+      "source": {
+        "title": "Morevna Project Demo",
+        "creator": "Morevna Project",
+        "projectURL": "https://morevnaproject.org/anime/demo/",
+        "downloadURL": "https://archive.org/download/TheBeautifulQueenMaryaMorevnaDemo/demo-20121110-final-1920x1080.mp4",
+        "fileName": "morevna-demo-1920x1080.mp4",
+        "expectedBytes": 33400667,
+        "sha256": "fe754890da64bf319c95b276008912b3cd2357a8216a1fee16dce00c2603e20e",
+        "archiveMember": null,
+        "license": {
+          "spdx": "CC-BY-3.0",
+          "url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "Morevna Project, The Beautiful Queen Marya Morevna Demo",
+          "notes": "The visual work is CC BY 3.0. Music has separate CC BY-NC-SA terms, so generated fixtures remove all audio."
+        }
+      },
+      "transform": {
+        "startSeconds": 0,
+        "durationSeconds": 120,
+        "maximumWidth": 1280,
+        "maximumHeight": 720,
+        "crf": 18,
+        "preset": "medium",
+        "removeAudio": true
+      },
+      "outputFileName": "morevna-demo-2d-animation.mp4",
+      "tags": [
+        "animation",
+        "2d",
+        "anime",
+        "faces",
+        "dark-scenes",
+        "credits"
+      ],
+      "expectations": {
+        "profile": "animation",
+        "reviewStatus": "initial-human-review",
+        "acceptableTimeRanges": [
+          [42, 58],
+          [62, 78],
+          [88, 120]
+        ]
+      }
+    },
+    {
+      "id": "big-buck-bunny",
+      "kind": "downloaded",
+      "status": "active",
+      "tier": "core",
+      "source": {
+        "title": "Big Buck Bunny",
+        "creator": "Blender Foundation",
+        "projectURL": "https://peach.blender.org/",
+        "downloadURL": "https://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_720p_h264.mov.zip",
+        "fileName": "big_buck_bunny_720p_h264.mov.zip",
+        "expectedBytes": 416751396,
+        "sha256": "b0c9ade80b086179feee41514929de583966eec87c703575d97f051f88b33b67",
+        "archiveMember": "big_buck_bunny_720p_h264.mov",
+        "license": {
+          "spdx": "CC-BY-3.0",
+          "url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "(c) 2008 Blender Foundation | peach.blender.org",
+          "notes": "Open Movie content; retain attribution with published results and derived fixtures."
+        }
+      },
+      "transform": {
+        "startSeconds": 120,
+        "durationSeconds": 120,
+        "maximumWidth": 1280,
+        "maximumHeight": 720,
+        "crf": 18,
+        "preset": "medium",
+        "removeAudio": true
+      },
+      "outputFileName": "big-buck-bunny-bright-animation.mp4",
+      "tags": [
+        "animation",
+        "3d",
+        "bright-scenes",
+        "colorful",
+        "motion"
+      ],
+      "expectations": {
+        "profile": "animation",
+        "reviewStatus": "initial-human-review",
+        "acceptableTimeRanges": [
+          [8, 22],
+          [38, 52],
+          [56, 68],
+          [72, 92],
+          [104, 120]
+        ]
+      }
+    },
+    {
+      "id": "sintel",
+      "kind": "downloaded",
+      "status": "active",
+      "tier": "core",
+      "source": {
+        "title": "Sintel",
+        "creator": "Blender Foundation",
+        "projectURL": "https://durian.blender.org/",
+        "downloadURL": "https://download.blender.org/durian/movies/Sintel.2010.720p.mkv.zip",
+        "fileName": "Sintel.2010.720p.mkv.zip",
+        "expectedBytes": 681285470,
+        "sha256": "d252f898641b20f51c64206f31063e659c28b152a9d988936736d1b56e6e4db3",
+        "archiveMember": "Sintel.2010.720p.mkv",
+        "license": {
+          "spdx": "CC-BY-3.0",
+          "url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "(c) Blender Foundation | durian.blender.org",
+          "notes": "Open Movie content; retain attribution with published results and derived fixtures."
+        }
+      },
+      "transform": {
+        "startSeconds": 240,
+        "durationSeconds": 120,
+        "maximumWidth": 1280,
+        "maximumHeight": 720,
+        "crf": 18,
+        "preset": "medium",
+        "removeAudio": true
+      },
+      "outputFileName": "sintel-dark-animation.mp4",
+      "tags": [
+        "animation",
+        "3d",
+        "faces",
+        "dark-scenes",
+        "action",
+        "crossfades"
+      ],
+      "expectations": {
+        "profile": "animation",
+        "reviewStatus": "initial-human-review",
+        "acceptableTimeRanges": [
+          [34, 52],
+          [64, 112]
+        ]
+      }
+    },
+    {
+      "id": "tears-of-steel",
+      "kind": "downloaded",
+      "status": "active",
+      "tier": "core",
+      "source": {
+        "title": "Tears of Steel",
+        "creator": "Blender Foundation",
+        "projectURL": "https://mango.blender.org/",
+        "downloadURL": "https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov",
+        "fileName": "tears_of_steel_720p.mov",
+        "expectedBytes": 372178639,
+        "sha256": "efa9062d9cdb7a338e40ad530dfdf234806743f29ae6a1a136b97ece4e588e8f",
+        "archiveMember": null,
+        "license": {
+          "spdx": "CC-BY-3.0",
+          "url": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "(c) Blender Foundation | mango.blender.org",
+          "notes": "Open Movie content; retain attribution with published results and derived fixtures."
+        }
+      },
+      "transform": {
+        "startSeconds": 240,
+        "durationSeconds": 120,
+        "maximumWidth": 1280,
+        "maximumHeight": 720,
+        "crf": 18,
+        "preset": "medium",
+        "removeAudio": true
+      },
+      "outputFileName": "tears-of-steel-live-action.mp4",
+      "tags": [
+        "live-action",
+        "faces",
+        "groups",
+        "visual-effects",
+        "dark-scenes",
+        "motion"
+      ],
+      "expectations": {
+        "profile": "general",
+        "reviewStatus": "initial-human-review",
+        "acceptableTimeRanges": [
+          [0, 18],
+          [28, 52],
+          [56, 75],
+          [78, 96],
+          [104, 120]
+        ]
+      }
+    },
+    {
+      "id": "cosmos-laundromat",
+      "kind": "downloaded",
+      "status": "active",
+      "tier": "core",
+      "source": {
+        "title": "Cosmos Laundromat: First Cycle",
+        "creator": "Blender Foundation",
+        "projectURL": "https://opencontent.netflix.com/",
+        "downloadURL": "https://s3.amazonaws.com/download.opencontent.netflix.com/TechblogAssets/CosmosLaundromat/encodes/CosmosLaundromat_2048x858_24fps_SDR.mp4",
+        "fileName": "CosmosLaundromat_2048x858_24fps_SDR.mp4",
+        "expectedBytes": 491245034,
+        "sha256": "96ace08a4d61878cfb7cc8b850b7f5aa7ba304de45017eaf832ccd3d52893130",
+        "archiveMember": null,
+        "license": {
+          "spdx": "CC-BY-4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Cosmos Laundromat by Blender Foundation; Netflix Open Content SDR encode",
+          "notes": "Netflix Open Content publishes the available assets under CC BY 4.0."
+        }
+      },
+      "transform": {
+        "startSeconds": 120,
+        "durationSeconds": 120,
+        "maximumWidth": 1280,
+        "maximumHeight": 720,
+        "crf": 18,
+        "preset": "medium",
+        "removeAudio": true
+      },
+      "outputFileName": "cosmos-laundromat-complex-animation.mp4",
+      "tags": [
+        "animation",
+        "3d",
+        "complex-composition",
+        "faces",
+        "dark-scenes",
+        "colorful"
+      ],
+      "expectations": {
+        "profile": "animation",
+        "reviewStatus": "initial-human-review",
+        "acceptableTimeRanges": [
+          [0, 45],
+          [55, 75],
+          [78, 120]
+        ]
+      }
+    },
+    {
+      "id": "generated-patterns",
+      "kind": "generated",
+      "status": "active",
+      "tier": "core",
+      "generator": {
+        "name": "poster-frame-kit-synthetic-video",
+        "version": 1,
+        "variant": "standard",
+        "identifier": "generated-h264-1280x720-30s-v1",
+        "width": 1280,
+        "height": 720,
+        "framesPerSecond": 12,
+        "durationSeconds": 30,
+        "maximumKeyFrameInterval": 24
+      },
+      "outputFileName": "generated-patterns-v1.mp4",
+      "tags": [
+        "generated",
+        "dark-scenes",
+        "gradient",
+        "color-bars",
+        "checkerboard",
+        "structured-patterns"
+      ],
+      "expectations": {
+        "profile": "animation",
+        "reviewStatus": "pending-human-review",
+        "acceptableTimeRanges": []
+      }
+    },
+    {
+      "id": "generated-subtitles",
+      "kind": "generated",
+      "status": "active",
+      "tier": "core",
+      "generator": {
+        "name": "poster-frame-kit-synthetic-video",
+        "version": 3,
+        "variant": "subtitles",
+        "identifier": "generated-h264-1280x720-30s-subtitle-calibration-v3",
+        "width": 1280,
+        "height": 720,
+        "framesPerSecond": 12,
+        "durationSeconds": 30,
+        "maximumKeyFrameInterval": 24
+      },
+      "outputFileName": "generated-subtitle-calibration-v3.mp4",
+      "tags": [
+        "generated",
+        "subtitles",
+        "credits",
+        "scene-sign",
+        "lower-third-text",
+        "clean-control-frames"
+      ],
+      "expectations": {
+        "profile": "animation",
+        "reviewStatus": "pending-human-review",
+        "acceptableTimeRanges": []
+      }
+    },
+    {
+      "id": "generated-very-short-single",
+      "kind": "generated",
+      "status": "active",
+      "tier": "core",
+      "generator": {
+        "name": "poster-frame-kit-synthetic-video",
+        "version": 1,
+        "variant": "very-short-single-scene",
+        "identifier": "generated-h264-640x360-1s-single-v1",
+        "width": 640,
+        "height": 360,
+        "framesPerSecond": 12,
+        "durationSeconds": 1,
+        "maximumKeyFrameInterval": 12
+      },
+      "outputFileName": "generated-very-short-single-v1.mp4",
+      "tags": [
+        "generated",
+        "very-short",
+        "single-scene"
+      ],
+      "expectations": {
+        "profile": "general",
+        "reviewStatus": "pending-human-review",
+        "acceptableTimeRanges": []
+      }
+    },
+    {
+      "id": "generated-very-short-multi",
+      "kind": "generated",
+      "status": "active",
+      "tier": "core",
+      "generator": {
+        "name": "poster-frame-kit-synthetic-video",
+        "version": 1,
+        "variant": "very-short-multi-scene",
+        "identifier": "generated-h264-640x360-3s-multi-v1",
+        "width": 640,
+        "height": 360,
+        "framesPerSecond": 12,
+        "durationSeconds": 3,
+        "maximumKeyFrameInterval": 36
+      },
+      "outputFileName": "generated-very-short-multi-v1.mp4",
+      "tags": [
+        "generated",
+        "very-short",
+        "multiple-scenes",
+        "dark-opening"
+      ],
+      "expectations": {
+        "profile": "general",
+        "reviewStatus": "pending-human-review",
+        "acceptableTimeRanges": []
+      }
+    },
+    {
+      "id": "generated-coarse-timestamps",
+      "kind": "generated",
+      "status": "active",
+      "tier": "core",
+      "generator": {
+        "name": "poster-frame-kit-synthetic-video",
+        "version": 1,
+        "variant": "coarse-timestamps",
+        "identifier": "generated-h264-640x360-8s-2fps-long-gop-v1",
+        "width": 640,
+        "height": 360,
+        "framesPerSecond": 2,
+        "durationSeconds": 8,
+        "maximumKeyFrameInterval": 16
+      },
+      "outputFileName": "generated-coarse-timestamps-v1.mp4",
+      "tags": [
+        "generated",
+        "coarse-timestamps",
+        "low-frame-rate",
+        "long-gop",
+        "duplicate-actual-times"
+      ],
+      "expectations": {
+        "profile": "general",
+        "reviewStatus": "pending-human-review",
+        "acceptableTimeRanges": []
+      }
+    },
+    {
+      "id": "meridian",
+      "kind": "downloaded",
+      "status": "deferred",
+      "tier": "extended",
+      "source": {
+        "title": "Meridian",
+        "creator": "Netflix",
+        "projectURL": "https://opencontent.netflix.com/",
+        "downloadURL": "https://s3.amazonaws.com/download.opencontent.netflix.com/Meridian/Meridian_UHD4k5994_HDR_P3PQ.mp4",
+        "fileName": "Meridian_UHD4k5994_HDR_P3PQ.mp4",
+        "expectedBytes": 850587087,
+        "sha256": null,
+        "archiveMember": null,
+        "license": {
+          "spdx": "CC-BY-4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Meridian by Netflix",
+          "notes": "Deferred until the fixture pipeline defines explicit HDR preservation or deterministic SDR tone mapping."
+        }
+      },
+      "transform": null,
+      "outputFileName": null,
+      "tags": [
+        "live-action",
+        "hdr",
+        "subtitles",
+        "high-frame-rate"
+      ],
+      "expectations": {
+        "profile": "general",
+        "reviewStatus": "deferred",
+        "acceptableTimeRanges": []
+      }
+    },
+    {
+      "id": "sol-levante",
+      "kind": "downloaded",
+      "status": "deferred",
+      "tier": "extended",
+      "source": {
+        "title": "Sol Levante",
+        "creator": "Netflix and Production I.G",
+        "projectURL": "https://opencontent.netflix.com/",
+        "downloadURL": "https://s3.amazonaws.com/download.opencontent.netflix.com/SolLevante/sdr/SolLevante_SDR_UHD_24fps.mov",
+        "fileName": "SolLevante_SDR_UHD_24fps.mov",
+        "expectedBytes": 16136968701,
+        "sha256": null,
+        "archiveMember": null,
+        "license": {
+          "spdx": "CC-BY-4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "Sol Levante by Netflix and Production I.G",
+          "notes": "Deferred because the smallest complete SDR master is approximately 16 GB."
+        }
+      },
+      "transform": null,
+      "outputFileName": null,
+      "tags": [
+        "animation",
+        "2d",
+        "anime",
+        "faces",
+        "hdr-source"
+      ],
+      "expectations": {
+        "profile": "animation",
+        "reviewStatus": "deferred",
+        "acceptableTimeRanges": []
+      }
+    }
+  ]
+}

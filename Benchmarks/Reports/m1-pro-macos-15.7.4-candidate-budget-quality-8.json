@@ -1,0 +1,425 @@
+{
+  "candidateCount" : 8,
+  "comparisonPolicy" : "Midpoint decodes the fixed 50% position independently; PosterFrameKit uses the fixture profile, an enabled face preference with its eight-candidate default, and the recommended Vision-first aesthetic preference; Vision ranks all shared candidates by overallScore; hybrid equally blends normalized Vision and PosterFrameKit base scores.",
+  "fixtures" : [
+    {
+      "captureMilliseconds" : 711.436417,
+      "decodedCandidateCount" : 8,
+      "hybrid" : {
+        "acceptable" : true,
+        "imagePath" : "morevna-demo/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.4343736102471018,
+        "score" : 0.5849846566860509,
+        "timeSeconds" : 93.91666666666667,
+        "visionScore" : 0.47119140625
+      },
+      "id" : "morevna-demo",
+      "midpoint" : {
+        "acceptable" : false,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "morevna-demo/midpoint.png",
+        "posterFrameScore" : 0.32017245014845,
+        "score" : 0.32017245014845,
+        "timeSeconds" : 59.958333333333336
+      },
+      "posterFrameKit" : {
+        "acceptable" : false,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "morevna-demo/posterframekit.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.41770373017403467,
+        "score" : 0.7425537109375,
+        "timeSeconds" : 79.875,
+        "visionScore" : 0.485107421875
+      },
+      "profile" : "animation",
+      "vision" : {
+        "acceptable" : false,
+        "imagePath" : "morevna-demo/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.41770373017403467,
+        "score" : 0.485107421875,
+        "timeSeconds" : 79.875,
+        "visionScore" : 0.485107421875
+      },
+      "visionAnalysisMilliseconds" : 62.778583
+    },
+    {
+      "captureMilliseconds" : 305.071917,
+      "decodedCandidateCount" : 8,
+      "hybrid" : {
+        "acceptable" : true,
+        "imagePath" : "big-buck-bunny/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.414363174104929,
+        "score" : 0.6642128370524645,
+        "timeSeconds" : 108,
+        "visionScore" : 0.828125
+      },
+      "id" : "big-buck-bunny",
+      "midpoint" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "big-buck-bunny/midpoint.png",
+        "posterFrameScore" : 0.32145923822501143,
+        "score" : 0.32145923822501143,
+        "timeSeconds" : 59.958333333333336
+      },
+      "posterFrameKit" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "big-buck-bunny/posterframekit.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.414363174104929,
+        "score" : 0.9140625,
+        "timeSeconds" : 108,
+        "visionScore" : 0.828125
+      },
+      "profile" : "animation",
+      "vision" : {
+        "acceptable" : true,
+        "imagePath" : "big-buck-bunny/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.414363174104929,
+        "score" : 0.828125,
+        "timeSeconds" : 108,
+        "visionScore" : 0.828125
+      },
+      "visionAnalysisMilliseconds" : 42.506125
+    },
+    {
+      "captureMilliseconds" : 267.055083,
+      "decodedCandidateCount" : 8,
+      "hybrid" : {
+        "acceptable" : true,
+        "imagePath" : "sintel/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.4462936998267408,
+        "score" : 0.6915306389758704,
+        "timeSeconds" : 108,
+        "visionScore" : 0.87353515625
+      },
+      "id" : "sintel",
+      "midpoint" : {
+        "acceptable" : false,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "sintel/midpoint.png",
+        "posterFrameScore" : 0.4673106795313334,
+        "score" : 0.4673106795313334,
+        "timeSeconds" : 59.958333333333336
+      },
+      "posterFrameKit" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0.03215085124525773,
+        "imagePath" : "sintel/posterframekit.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.4462936998267408,
+        "score" : 0.9689184293702577,
+        "timeSeconds" : 108,
+        "visionScore" : 0.87353515625
+      },
+      "profile" : "animation",
+      "vision" : {
+        "acceptable" : true,
+        "imagePath" : "sintel/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.4462936998267408,
+        "score" : 0.87353515625,
+        "timeSeconds" : 108,
+        "visionScore" : 0.87353515625
+      },
+      "visionAnalysisMilliseconds" : 39.319125
+    },
+    {
+      "captureMilliseconds" : 384.77625,
+      "decodedCandidateCount" : 8,
+      "hybrid" : {
+        "acceptable" : true,
+        "imagePath" : "tears-of-steel/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.41130651526979023,
+        "score" : 0.6786757185723951,
+        "timeSeconds" : 79.875,
+        "visionScore" : 0.89208984375
+      },
+      "id" : "tears-of-steel",
+      "midpoint" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "tears-of-steel/midpoint.png",
+        "posterFrameScore" : 0.46663078935194835,
+        "score" : 0.46663078935194835,
+        "timeSeconds" : 59.958333333333336
+      },
+      "posterFrameKit" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0.03832982391177197,
+        "imagePath" : "tears-of-steel/posterframekit.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.41130651526979023,
+        "score" : 0.984374745786772,
+        "timeSeconds" : 79.875,
+        "visionScore" : 0.89208984375
+      },
+      "profile" : "general",
+      "vision" : {
+        "acceptable" : true,
+        "imagePath" : "tears-of-steel/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.41130651526979023,
+        "score" : 0.89208984375,
+        "timeSeconds" : 79.875,
+        "visionScore" : 0.89208984375
+      },
+      "visionAnalysisMilliseconds" : 39.935875
+    },
+    {
+      "captureMilliseconds" : 283.2215,
+      "decodedCandidateCount" : 8,
+      "hybrid" : {
+        "acceptable" : true,
+        "imagePath" : "cosmos-laundromat/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.39866525116298573,
+        "score" : 0.6296304771439929,
+        "timeSeconds" : 9.583333333333334,
+        "visionScore" : 0.72119140625
+      },
+      "id" : "cosmos-laundromat",
+      "midpoint" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "cosmos-laundromat/midpoint.png",
+        "posterFrameScore" : 0.3543386847466182,
+        "score" : 0.3543386847466182,
+        "timeSeconds" : 59.958333333333336
+      },
+      "posterFrameKit" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0.03166986756037341,
+        "imagePath" : "cosmos-laundromat/posterframekit.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.33231913667928026,
+        "score" : 0.8702929144353735,
+        "timeSeconds" : 108,
+        "visionScore" : 0.67724609375
+      },
+      "profile" : "animation",
+      "vision" : {
+        "acceptable" : true,
+        "imagePath" : "cosmos-laundromat/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.39866525116298573,
+        "score" : 0.72119140625,
+        "timeSeconds" : 9.583333333333334,
+        "visionScore" : 0.72119140625
+      },
+      "visionAnalysisMilliseconds" : 39.122916
+    },
+    {
+      "captureMilliseconds" : 194.549125,
+      "decodedCandidateCount" : 8,
+      "hybrid" : {
+        "imagePath" : "generated-patterns/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.3290519506687064,
+        "score" : 0.5282344714281032,
+        "timeSeconds" : 16.416666666666668,
+        "visionScore" : 0.454833984375
+      },
+      "id" : "generated-patterns",
+      "midpoint" : {
+        "faceCompositionBonus" : 0,
+        "imagePath" : "generated-patterns/midpoint.png",
+        "posterFrameScore" : 0.32519167668473226,
+        "score" : 0.32519167668473226,
+        "timeSeconds" : 15
+      },
+      "posterFrameKit" : {
+        "faceCompositionBonus" : 0,
+        "imagePath" : "generated-patterns/posterframekit.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.04892753397767665,
+        "score" : 0.7578125,
+        "timeSeconds" : 23.416666666666668,
+        "visionScore" : 0.515625
+      },
+      "profile" : "animation",
+      "vision" : {
+        "imagePath" : "generated-patterns/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.04892753397767665,
+        "score" : 0.515625,
+        "timeSeconds" : 23.416666666666668,
+        "visionScore" : 0.515625
+      },
+      "visionAnalysisMilliseconds" : 41.900458
+    },
+    {
+      "captureMilliseconds" : 202.681333,
+      "decodedCandidateCount" : 8,
+      "hybrid" : {
+        "imagePath" : "generated-subtitles/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.3290519506687064,
+        "score" : 0.5282344714281032,
+        "timeSeconds" : 16.416666666666668,
+        "visionScore" : 0.454833984375
+      },
+      "id" : "generated-subtitles",
+      "midpoint" : {
+        "faceCompositionBonus" : 0,
+        "imagePath" : "generated-subtitles/midpoint.png",
+        "posterFrameScore" : 0.32519167668473226,
+        "score" : 0.32519167668473226,
+        "timeSeconds" : 15
+      },
+      "posterFrameKit" : {
+        "faceCompositionBonus" : 0,
+        "imagePath" : "generated-subtitles/posterframekit.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.04892753397767665,
+        "score" : 0.7578125,
+        "timeSeconds" : 23.416666666666668,
+        "visionScore" : 0.515625
+      },
+      "profile" : "animation",
+      "vision" : {
+        "imagePath" : "generated-subtitles/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.04892753397767665,
+        "score" : 0.515625,
+        "timeSeconds" : 23.416666666666668,
+        "visionScore" : 0.515625
+      },
+      "visionAnalysisMilliseconds" : 43.079625
+    },
+    {
+      "captureMilliseconds" : 142.427167,
+      "decodedCandidateCount" : 8,
+      "hybrid" : {
+        "imagePath" : "generated-very-short-single/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.08740926058966703,
+        "score" : 0.14778815344909224,
+        "timeSeconds" : 0.75,
+        "visionScore" : -0.5836659073829651
+      },
+      "id" : "generated-very-short-single",
+      "midpoint" : {
+        "faceCompositionBonus" : 0,
+        "imagePath" : "generated-very-short-single/midpoint.png",
+        "posterFrameScore" : 0.08283008084523348,
+        "score" : 0.08283008084523348,
+        "timeSeconds" : 0.5
+      },
+      "posterFrameKit" : {
+        "faceCompositionBonus" : 0,
+        "imagePath" : "generated-very-short-single/posterframekit.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.08740926058966703,
+        "score" : 0.20816704630851746,
+        "timeSeconds" : 0.75,
+        "visionScore" : -0.5836659073829651
+      },
+      "profile" : "general",
+      "vision" : {
+        "imagePath" : "generated-very-short-single/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.08740926058966703,
+        "score" : -0.5836659073829651,
+        "timeSeconds" : 0.75,
+        "visionScore" : -0.5836659073829651
+      },
+      "visionAnalysisMilliseconds" : 31.938625
+    },
+    {
+      "captureMilliseconds" : 157.404291,
+      "decodedCandidateCount" : 8,
+      "hybrid" : {
+        "imagePath" : "generated-very-short-multi/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.24554777291128416,
+        "score" : 0.549409628643142,
+        "timeSeconds" : 2.3333333333333335,
+        "visionScore" : 0.70654296875
+      },
+      "id" : "generated-very-short-multi",
+      "midpoint" : {
+        "faceCompositionBonus" : 0,
+        "imagePath" : "generated-very-short-multi/midpoint.png",
+        "posterFrameScore" : 0.09159170559354315,
+        "score" : 0.09159170559354315,
+        "timeSeconds" : 1.5
+      },
+      "posterFrameKit" : {
+        "faceCompositionBonus" : 0,
+        "imagePath" : "generated-very-short-multi/posterframekit.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.24554777291128416,
+        "score" : 0.853271484375,
+        "timeSeconds" : 2.3333333333333335,
+        "visionScore" : 0.70654296875
+      },
+      "profile" : "general",
+      "vision" : {
+        "imagePath" : "generated-very-short-multi/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.24554777291128416,
+        "score" : 0.70654296875,
+        "timeSeconds" : 2.3333333333333335,
+        "visionScore" : 0.70654296875
+      },
+      "visionAnalysisMilliseconds" : 33.097167
+    },
+    {
+      "captureMilliseconds" : 145.6145,
+      "decodedCandidateCount" : 8,
+      "hybrid" : {
+        "imagePath" : "generated-coarse-timestamps/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.2455911847508001,
+        "score" : 0.5484547720629,
+        "timeSeconds" : 7,
+        "visionScore" : 0.70263671875
+      },
+      "id" : "generated-coarse-timestamps",
+      "midpoint" : {
+        "faceCompositionBonus" : 0,
+        "imagePath" : "generated-coarse-timestamps/midpoint.png",
+        "posterFrameScore" : 0.09156876332117708,
+        "score" : 0.09156876332117708,
+        "timeSeconds" : 4
+      },
+      "posterFrameKit" : {
+        "faceCompositionBonus" : 0,
+        "imagePath" : "generated-coarse-timestamps/posterframekit.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.2455911847508001,
+        "score" : 0.851318359375,
+        "timeSeconds" : 7,
+        "visionScore" : 0.70263671875
+      },
+      "profile" : "general",
+      "vision" : {
+        "imagePath" : "generated-coarse-timestamps/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.2455911847508001,
+        "score" : 0.70263671875,
+        "timeSeconds" : 7,
+        "visionScore" : 0.70263671875
+      },
+      "visionAnalysisMilliseconds" : 32.583667
+    }
+  ],
+  "generatedAt" : "2026-08-31T19:53:08Z",
+  "schemaVersion" : 3,
+  "system" : {
+    "architecture" : "arm64",
+    "operatingSystem" : "Version 15.7.4 (Build 24G517)",
+    "physicalMemoryBytes" : 34359738368,
+    "processor" : "Apple M1 Pro",
+    "processorCount" : 10
+  }
+}

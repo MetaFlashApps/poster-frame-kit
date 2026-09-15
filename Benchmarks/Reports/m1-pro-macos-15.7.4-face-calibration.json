@@ -1,0 +1,2133 @@
+{
+  "candidateCount" : 24,
+  "comparisonPolicy" : "Midpoint decodes the fixed 50% position independently; each fixture uses its declared profile; PosterFrameKit uses only the selected profile's deterministic metrics; Vision ranks all shared candidates by overallScore; hybrid equally blends normalized Vision and PosterFrameKit base scores.",
+  "fixtures" : [
+    {
+      "captureMilliseconds" : 843.744,
+      "decodedCandidateCount" : 22,
+      "faceCalibration" : {
+        "baseWinnerTimeSeconds" : 99.41666666666667,
+        "candidateCount" : 8,
+        "candidates" : [
+          {
+            "baseRank" : 17,
+            "baseScore" : 0.006568592856029351,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 223.314583,
+            "timeSeconds" : 9.583333333333334,
+            "warmPassMilliseconds" : 10.656625
+          },
+          {
+            "baseRank" : 21,
+            "baseScore" : 0,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 11.024833,
+            "timeSeconds" : 13.875,
+            "warmPassMilliseconds" : 9.756334
+          },
+          {
+            "baseRank" : 15,
+            "baseScore" : 0.017747835117356295,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 10.916584,
+            "timeSeconds" : 18.125,
+            "warmPassMilliseconds" : 8.445542
+          },
+          {
+            "baseRank" : 18,
+            "baseScore" : 0.005521174365434772,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 10.695958,
+            "timeSeconds" : 22.416666666666668,
+            "warmPassMilliseconds" : 7.498875
+          },
+          {
+            "baseRank" : 19,
+            "baseScore" : 0.000519636171392855,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 10.488041,
+            "timeSeconds" : 26.708333333333332,
+            "warmPassMilliseconds" : 7.501542
+          },
+          {
+            "baseRank" : 20,
+            "baseScore" : 3.326075760656499e-05,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 10.029,
+            "timeSeconds" : 30.958333333333332,
+            "warmPassMilliseconds" : 7.322167
+          },
+          {
+            "baseRank" : 16,
+            "baseScore" : 0.014041778323084437,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 10.289084,
+            "timeSeconds" : 35.25,
+            "warmPassMilliseconds" : 7.553584
+          },
+          {
+            "baseRank" : 14,
+            "baseScore" : 0.018352729404960334,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 10.635625,
+            "timeSeconds" : 39.541666666666664,
+            "warmPassMilliseconds" : 6.934083
+          },
+          {
+            "baseRank" : 22,
+            "baseScore" : 0,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 14.476,
+            "timeSeconds" : 43.791666666666664,
+            "warmPassMilliseconds" : 6.573167
+          },
+          {
+            "baseRank" : 10,
+            "baseScore" : 0.3310521740665072,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 237.764125,
+            "timeSeconds" : 48.083333333333336,
+            "warmPassMilliseconds" : 6.374291
+          },
+          {
+            "baseRank" : 9,
+            "baseScore" : 0.3490525413300267,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 12.254959,
+            "timeSeconds" : 52.375,
+            "warmPassMilliseconds" : 6.059416
+          },
+          {
+            "baseRank" : 12,
+            "baseScore" : 0.29674944849902507,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 10.320667,
+            "timeSeconds" : 65.20833333333333,
+            "warmPassMilliseconds" : 6.285625
+          },
+          {
+            "baseRank" : 13,
+            "baseScore" : 0.2778803908531946,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 9.4785,
+            "timeSeconds" : 69.45833333333333,
+            "warmPassMilliseconds" : 5.907417
+          },
+          {
+            "baseRank" : 5,
+            "baseScore" : 0.4276132641294851,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 9.191875,
+            "timeSeconds" : 73.75,
+            "warmPassMilliseconds" : 5.923083
+          },
+          {
+            "baseRank" : 7,
+            "baseScore" : 0.4106052805639332,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 10.032375,
+            "timeSeconds" : 78.04166666666667,
+            "warmPassMilliseconds" : 5.871042
+          },
+          {
+            "baseRank" : 3,
+            "baseScore" : 0.4392390558215318,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 9.471041,
+            "timeSeconds" : 82.29166666666667,
+            "warmPassMilliseconds" : 5.710709
+          },
+          {
+            "baseRank" : 4,
+            "baseScore" : 0.4332583232159962,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 11.804375,
+            "timeSeconds" : 86.58333333333333,
+            "warmPassMilliseconds" : 5.702334
+          },
+          {
+            "baseRank" : 8,
+            "baseScore" : 0.4081281446828747,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 11.373458,
+            "timeSeconds" : 90.875,
+            "warmPassMilliseconds" : 5.789791
+          },
+          {
+            "baseRank" : 2,
+            "baseScore" : 0.4537321275732713,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 9.534666,
+            "timeSeconds" : 95.125,
+            "warmPassMilliseconds" : 5.8885
+          },
+          {
+            "baseRank" : 1,
+            "baseScore" : 0.4552592186635349,
+            "compositionQuality" : 0.5760791076059256,
+            "faceBounds" : [
+              {
+                "height" : 0.3166905343532562,
+                "width" : 0.17813841998577118,
+                "x" : 0.40114331245422363,
+                "y" : 0.3757314085960388
+              }
+            ],
+            "faceConfidences" : [
+              0.779999
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 11.831042,
+            "timeSeconds" : 99.41666666666667,
+            "warmPassMilliseconds" : 7.040458
+          },
+          {
+            "baseRank" : 11,
+            "baseScore" : 0.3200019885287017,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 9.959209,
+            "timeSeconds" : 103.70833333333333,
+            "warmPassMilliseconds" : 5.799625
+          },
+          {
+            "baseRank" : 6,
+            "baseScore" : 0.42045965001592234,
+            "compositionQuality" : 0.28777977544510497,
+            "faceBounds" : [
+              {
+                "height" : 0.2687378525733948,
+                "width" : 0.15116503834724426,
+                "x" : 0.8005182147026062,
+                "y" : 0.4354376196861267
+              },
+              {
+                "height" : 0.09824195504188538,
+                "width" : 0.055261097848415375,
+                "x" : 0.3553794026374817,
+                "y" : 0.5326371788978577
+              }
+            ],
+            "faceConfidences" : [
+              0.73818827,
+              0.73020756
+            ],
+            "faceCount" : 2,
+            "firstPassMilliseconds" : 24.927458,
+            "timeSeconds" : 108,
+            "warmPassMilliseconds" : 9.249875
+          }
+        ],
+        "contactSheetPath" : "morevna-demo/face-calibration.jpg",
+        "detectedCandidateCount" : 2,
+        "detectionsStable" : true,
+        "firstPassMilliseconds" : 689.877958,
+        "maximumBonus" : 0.04,
+        "preferredWinnerCompositionQuality" : 0.5760791076059256,
+        "preferredWinnerTimeSeconds" : 99.41666666666667,
+        "scoredCandidateCount" : 2,
+        "totalFaceCount" : 3,
+        "warmPassMilliseconds" : 153.87325
+      },
+      "hybrid" : {
+        "acceptable" : true,
+        "imagePath" : "morevna-demo/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.4537321275732713,
+        "score" : 0.5946639153491357,
+        "timeSeconds" : 95.125,
+        "visionScore" : 0.47119140625
+      },
+      "id" : "morevna-demo",
+      "midpoint" : {
+        "acceptable" : false,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "morevna-demo/midpoint.png",
+        "posterFrameScore" : 0.32017245014845,
+        "score" : 0.32017245014845,
+        "timeSeconds" : 59.958333333333336
+      },
+      "posterFrameKit" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "morevna-demo/posterframekit.png",
+        "posterFrameScore" : 0.4552592186635349,
+        "score" : 0.4552592186635349,
+        "timeSeconds" : 99.41666666666667
+      },
+      "profile" : "animation",
+      "vision" : {
+        "acceptable" : true,
+        "imagePath" : "morevna-demo/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.4276132641294851,
+        "score" : 0.488037109375,
+        "timeSeconds" : 73.75,
+        "visionScore" : 0.488037109375
+      },
+      "visionAnalysisMilliseconds" : 129.660542
+    },
+    {
+      "captureMilliseconds" : 543.584,
+      "decodedCandidateCount" : 22,
+      "faceCalibration" : {
+        "baseWinnerTimeSeconds" : 108,
+        "candidateCount" : 8,
+        "candidates" : [
+          {
+            "baseRank" : 10,
+            "baseScore" : 0.3804675640592926,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 7.409875,
+            "timeSeconds" : 9.583333333333334,
+            "warmPassMilliseconds" : 5.470042
+          },
+          {
+            "baseRank" : 8,
+            "baseScore" : 0.3869745937544397,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.609416,
+            "timeSeconds" : 13.875,
+            "warmPassMilliseconds" : 5.608166
+          },
+          {
+            "baseRank" : 7,
+            "baseScore" : 0.3873378983237349,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.494125,
+            "timeSeconds" : 18.125,
+            "warmPassMilliseconds" : 5.488708
+          },
+          {
+            "baseRank" : 9,
+            "baseScore" : 0.3863472923349176,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.729875,
+            "timeSeconds" : 22.416666666666668,
+            "warmPassMilliseconds" : 5.6715
+          },
+          {
+            "baseRank" : 18,
+            "baseScore" : 0.3496719810504908,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.862167,
+            "timeSeconds" : 26.708333333333332,
+            "warmPassMilliseconds" : 5.549958
+          },
+          {
+            "baseRank" : 14,
+            "baseScore" : 0.36398998814682176,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.715542,
+            "timeSeconds" : 30.958333333333332,
+            "warmPassMilliseconds" : 5.555875
+          },
+          {
+            "baseRank" : 12,
+            "baseScore" : 0.37270837011204555,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.606834,
+            "timeSeconds" : 35.25,
+            "warmPassMilliseconds" : 5.579083
+          },
+          {
+            "baseRank" : 21,
+            "baseScore" : 0.33578348156638793,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.461917,
+            "timeSeconds" : 39.541666666666664,
+            "warmPassMilliseconds" : 5.584125
+          },
+          {
+            "baseRank" : 13,
+            "baseScore" : 0.36600583619835547,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.814,
+            "timeSeconds" : 43.791666666666664,
+            "warmPassMilliseconds" : 5.56925
+          },
+          {
+            "baseRank" : 15,
+            "baseScore" : 0.36279817439686923,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.793083,
+            "timeSeconds" : 48.083333333333336,
+            "warmPassMilliseconds" : 5.434042
+          },
+          {
+            "baseRank" : 22,
+            "baseScore" : 0.3029155113138857,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.616958,
+            "timeSeconds" : 52.375,
+            "warmPassMilliseconds" : 5.440042
+          },
+          {
+            "baseRank" : 16,
+            "baseScore" : 0.3622276445529412,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.3065,
+            "timeSeconds" : 65.20833333333333,
+            "warmPassMilliseconds" : 5.88175
+          },
+          {
+            "baseRank" : 19,
+            "baseScore" : 0.34929471395169415,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.92325,
+            "timeSeconds" : 69.45833333333333,
+            "warmPassMilliseconds" : 5.754917
+          },
+          {
+            "baseRank" : 5,
+            "baseScore" : 0.3947478737591705,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.143666,
+            "timeSeconds" : 73.75,
+            "warmPassMilliseconds" : 5.685625
+          },
+          {
+            "baseRank" : 20,
+            "baseScore" : 0.34328975847494125,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.710083,
+            "timeSeconds" : 78.04166666666667,
+            "warmPassMilliseconds" : 5.709916
+          },
+          {
+            "baseRank" : 4,
+            "baseScore" : 0.39681363985098966,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.629417,
+            "timeSeconds" : 82.29166666666667,
+            "warmPassMilliseconds" : 5.929375
+          },
+          {
+            "baseRank" : 2,
+            "baseScore" : 0.4017953693929274,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.59475,
+            "timeSeconds" : 86.58333333333333,
+            "warmPassMilliseconds" : 5.773875
+          },
+          {
+            "baseRank" : 6,
+            "baseScore" : 0.39398412232500474,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.536209,
+            "timeSeconds" : 90.875,
+            "warmPassMilliseconds" : 5.775792
+          },
+          {
+            "baseRank" : 11,
+            "baseScore" : 0.37290962951210893,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.528083,
+            "timeSeconds" : 95.125,
+            "warmPassMilliseconds" : 5.727083
+          },
+          {
+            "baseRank" : 3,
+            "baseScore" : 0.39805969405342845,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.742167,
+            "timeSeconds" : 99.41666666666667,
+            "warmPassMilliseconds" : 6.287291
+          },
+          {
+            "baseRank" : 17,
+            "baseScore" : 0.3496885254096839,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.557042,
+            "timeSeconds" : 103.70833333333333,
+            "warmPassMilliseconds" : 6.080334
+          },
+          {
+            "baseRank" : 1,
+            "baseScore" : 0.414363174104929,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.459458,
+            "timeSeconds" : 108,
+            "warmPassMilliseconds" : 6.06825
+          }
+        ],
+        "contactSheetPath" : "big-buck-bunny/face-calibration.jpg",
+        "detectedCandidateCount" : 0,
+        "detectionsStable" : true,
+        "firstPassMilliseconds" : 129.271417,
+        "maximumBonus" : 0.04,
+        "preferredWinnerCompositionQuality" : 0,
+        "preferredWinnerTimeSeconds" : 108,
+        "scoredCandidateCount" : 0,
+        "totalFaceCount" : 0,
+        "warmPassMilliseconds" : 125.655208
+      },
+      "hybrid" : {
+        "acceptable" : true,
+        "imagePath" : "big-buck-bunny/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.414363174104929,
+        "score" : 0.6642128370524645,
+        "timeSeconds" : 108,
+        "visionScore" : 0.828125
+      },
+      "id" : "big-buck-bunny",
+      "midpoint" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "big-buck-bunny/midpoint.png",
+        "posterFrameScore" : 0.32145923822501143,
+        "score" : 0.32145923822501143,
+        "timeSeconds" : 59.958333333333336
+      },
+      "posterFrameKit" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "big-buck-bunny/posterframekit.png",
+        "posterFrameScore" : 0.414363174104929,
+        "score" : 0.414363174104929,
+        "timeSeconds" : 108
+      },
+      "profile" : "animation",
+      "vision" : {
+        "acceptable" : true,
+        "imagePath" : "big-buck-bunny/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.414363174104929,
+        "score" : 0.828125,
+        "timeSeconds" : 108,
+        "visionScore" : 0.828125
+      },
+      "visionAnalysisMilliseconds" : 122.007875
+    },
+    {
+      "captureMilliseconds" : 399.91675,
+      "decodedCandidateCount" : 22,
+      "faceCalibration" : {
+        "baseWinnerTimeSeconds" : 13.875,
+        "candidateCount" : 8,
+        "candidates" : [
+          {
+            "baseRank" : 18,
+            "baseScore" : 0.3971972455809822,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.853541,
+            "timeSeconds" : 9.583333333333334,
+            "warmPassMilliseconds" : 5.864708
+          },
+          {
+            "baseRank" : 1,
+            "baseScore" : 0.503634039945785,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.660667,
+            "timeSeconds" : 13.875,
+            "warmPassMilliseconds" : 5.63425
+          },
+          {
+            "baseRank" : 6,
+            "baseScore" : 0.47292889819886386,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.14875,
+            "timeSeconds" : 18.125,
+            "warmPassMilliseconds" : 5.430542
+          },
+          {
+            "baseRank" : 16,
+            "baseScore" : 0.42497062816857867,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.771292,
+            "timeSeconds" : 22.416666666666668,
+            "warmPassMilliseconds" : 5.419209
+          },
+          {
+            "baseRank" : 8,
+            "baseScore" : 0.4616832624887389,
+            "compositionQuality" : 0.4032241487633603,
+            "faceBounds" : [
+              {
+                "height" : 0.30122971534729004,
+                "width" : 0.12802262604236603,
+                "x" : 0.3945411741733551,
+                "y" : 0.4781242907047272
+              }
+            ],
+            "faceConfidences" : [
+              0.78343445
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 8.908584,
+            "timeSeconds" : 26.708333333333332,
+            "warmPassMilliseconds" : 9.525791
+          },
+          {
+            "baseRank" : 10,
+            "baseScore" : 0.45494565655385444,
+            "compositionQuality" : 0.3387567106966285,
+            "faceBounds" : [
+              {
+                "height" : 0.25892090797424316,
+                "width" : 0.11004139482975006,
+                "x" : 0.4292563498020172,
+                "y" : 0.33619341254234314
+              }
+            ],
+            "faceConfidences" : [
+              0.8282724
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 7.086042,
+            "timeSeconds" : 30.958333333333332,
+            "warmPassMilliseconds" : 7.976458
+          },
+          {
+            "baseRank" : 14,
+            "baseScore" : 0.43729823950543256,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.646125,
+            "timeSeconds" : 35.25,
+            "warmPassMilliseconds" : 6.249792
+          },
+          {
+            "baseRank" : 11,
+            "baseScore" : 0.4479194508044339,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.725708,
+            "timeSeconds" : 39.541666666666664,
+            "warmPassMilliseconds" : 5.922709
+          },
+          {
+            "baseRank" : 3,
+            "baseScore" : 0.4962294511293502,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.871125,
+            "timeSeconds" : 43.791666666666664,
+            "warmPassMilliseconds" : 5.790958
+          },
+          {
+            "baseRank" : 19,
+            "baseScore" : 0.39473467585013833,
+            "compositionQuality" : 0.28476356862666197,
+            "faceBounds" : [
+              {
+                "height" : 0.26415786147117615,
+                "width" : 0.11226709187030792,
+                "x" : 0.2724093496799469,
+                "y" : 0.5908433794975281
+              }
+            ],
+            "faceConfidences" : [
+              0.8270925
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 9.13075,
+            "timeSeconds" : 48.083333333333336,
+            "warmPassMilliseconds" : 8.63325
+          },
+          {
+            "baseRank" : 4,
+            "baseScore" : 0.4851081870821592,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.333833,
+            "timeSeconds" : 52.375,
+            "warmPassMilliseconds" : 6.131584
+          },
+          {
+            "baseRank" : 7,
+            "baseScore" : 0.46361426312496823,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.377583,
+            "timeSeconds" : 65.20833333333333,
+            "warmPassMilliseconds" : 5.46025
+          },
+          {
+            "baseRank" : 20,
+            "baseScore" : 0.38211082257070744,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.052792,
+            "timeSeconds" : 69.45833333333333,
+            "warmPassMilliseconds" : 5.265417
+          },
+          {
+            "baseRank" : 22,
+            "baseScore" : 0.34295810773179575,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.28325,
+            "timeSeconds" : 73.75,
+            "warmPassMilliseconds" : 5.512958
+          },
+          {
+            "baseRank" : 21,
+            "baseScore" : 0.3771531788462865,
+            "compositionQuality" : 0.4297303578765317,
+            "faceBounds" : [
+              {
+                "height" : 0.2956116497516632,
+                "width" : 0.12563495337963104,
+                "x" : 0.46293720602989197,
+                "y" : 0.3503265082836151
+              }
+            ],
+            "faceConfidences" : [
+              0.836193
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 9.286541,
+            "timeSeconds" : 78.04166666666667,
+            "warmPassMilliseconds" : 9.232125
+          },
+          {
+            "baseRank" : 2,
+            "baseScore" : 0.4980233308062853,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.101917,
+            "timeSeconds" : 82.29166666666667,
+            "warmPassMilliseconds" : 5.543583
+          },
+          {
+            "baseRank" : 5,
+            "baseScore" : 0.479876778642645,
+            "compositionQuality" : 0.7292347249631519,
+            "faceBounds" : [
+              {
+                "height" : 0.437256395816803,
+                "width" : 0.18583396077156067,
+                "x" : 0.24953749775886536,
+                "y" : 0.36325588822364807
+              }
+            ],
+            "faceConfidences" : [
+              0.7927282
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 9.365833,
+            "timeSeconds" : 86.58333333333333,
+            "warmPassMilliseconds" : 8.75275
+          },
+          {
+            "baseRank" : 9,
+            "baseScore" : 0.459818059014899,
+            "compositionQuality" : 0.7621913237937102,
+            "faceBounds" : [
+              {
+                "height" : 0.56889808177948,
+                "width" : 0.24178168177604675,
+                "x" : 0.2559829652309418,
+                "y" : 0.26334452629089355
+              }
+            ],
+            "faceConfidences" : [
+              0.8121995
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 15.280166,
+            "timeSeconds" : 90.875,
+            "warmPassMilliseconds" : 7.895625
+          },
+          {
+            "baseRank" : 17,
+            "baseScore" : 0.40416422962707577,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.897334,
+            "timeSeconds" : 95.125,
+            "warmPassMilliseconds" : 5.906792
+          },
+          {
+            "baseRank" : 15,
+            "baseScore" : 0.42819168469515434,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.948,
+            "timeSeconds" : 99.41666666666667,
+            "warmPassMilliseconds" : 5.56925
+          },
+          {
+            "baseRank" : 12,
+            "baseScore" : 0.4464833186980671,
+            "compositionQuality" : 0.5379459004688244,
+            "faceBounds" : [
+              {
+                "height" : 0.36072373390197754,
+                "width" : 0.15330758690834045,
+                "x" : 0.5090616941452026,
+                "y" : 0.32392480969429016
+              }
+            ],
+            "faceConfidences" : [
+              0.7821869
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 6.77875,
+            "timeSeconds" : 103.70833333333333,
+            "warmPassMilliseconds" : 7.471917
+          },
+          {
+            "baseRank" : 13,
+            "baseScore" : 0.4462936998267408,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+              {
+                "height" : 1.0233821868896484,
+                "width" : 0.43493741750717163,
+                "x" : 0.2269548922777176,
+                "y" : -0.07967977225780487
+              }
+            ],
+            "faceConfidences" : [
+              0.6977223
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 7.900541,
+            "timeSeconds" : 108,
+            "warmPassMilliseconds" : 7.603708
+          }
+        ],
+        "contactSheetPath" : "sintel/face-calibration.jpg",
+        "detectedCandidateCount" : 8,
+        "detectionsStable" : true,
+        "firstPassMilliseconds" : 159.446875,
+        "maximumBonus" : 0.04,
+        "preferredWinnerCompositionQuality" : 0.7292347249631519,
+        "preferredWinnerTimeSeconds" : 86.58333333333333,
+        "scoredCandidateCount" : 7,
+        "totalFaceCount" : 8,
+        "warmPassMilliseconds" : 146.827125
+      },
+      "hybrid" : {
+        "acceptable" : true,
+        "imagePath" : "sintel/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.479876778642645,
+        "score" : 0.7185760846338225,
+        "timeSeconds" : 86.58333333333333,
+        "visionScore" : 0.91455078125
+      },
+      "id" : "sintel",
+      "midpoint" : {
+        "acceptable" : false,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "sintel/midpoint.png",
+        "posterFrameScore" : 0.4673106795313334,
+        "score" : 0.4673106795313334,
+        "timeSeconds" : 59.958333333333336
+      },
+      "posterFrameKit" : {
+        "acceptable" : false,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "sintel/posterframekit.png",
+        "posterFrameScore" : 0.503634039945785,
+        "score" : 0.503634039945785,
+        "timeSeconds" : 13.875
+      },
+      "profile" : "animation",
+      "vision" : {
+        "acceptable" : true,
+        "imagePath" : "sintel/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.479876778642645,
+        "score" : 0.91455078125,
+        "timeSeconds" : 86.58333333333333,
+        "visionScore" : 0.91455078125
+      },
+      "visionAnalysisMilliseconds" : 113.85775
+    },
+    {
+      "captureMilliseconds" : 581.621792,
+      "decodedCandidateCount" : 22,
+      "faceCalibration" : {
+        "baseWinnerTimeSeconds" : 65.20833333333333,
+        "candidateCount" : 8,
+        "candidates" : [
+          {
+            "baseRank" : 15,
+            "baseScore" : 0.42416006744587925,
+            "compositionQuality" : 0.6222886123078593,
+            "faceBounds" : [
+              {
+                "height" : 0.35006868839263916,
+                "width" : 0.1460442841053009,
+                "x" : 0.19267897307872772,
+                "y" : 0.3854324221611023
+              },
+              {
+                "height" : 0.297770231962204,
+                "width" : 0.12422601878643036,
+                "x" : 0.35603266954421997,
+                "y" : 0.43696069717407227
+              },
+              {
+                "height" : 0.2738555073738098,
+                "width" : 0.1142490953207016,
+                "x" : 0.7295592427253723,
+                "y" : 0.22867079079151154
+              }
+            ],
+            "faceConfidences" : [
+              0.8558165,
+              0.8244316,
+              0.8202753
+            ],
+            "faceCount" : 3,
+            "firstPassMilliseconds" : 19.039917,
+            "timeSeconds" : 9.583333333333334,
+            "warmPassMilliseconds" : 15.067542
+          },
+          {
+            "baseRank" : 13,
+            "baseScore" : 0.43381472911833063,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.23825,
+            "timeSeconds" : 13.875,
+            "warmPassMilliseconds" : 5.919834
+          },
+          {
+            "baseRank" : 9,
+            "baseScore" : 0.44177702763984567,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.013625,
+            "timeSeconds" : 18.125,
+            "warmPassMilliseconds" : 5.660375
+          },
+          {
+            "baseRank" : 12,
+            "baseScore" : 0.4351605051374216,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+              {
+                "height" : 0.07655614614486694,
+                "width" : 0.03193826600909233,
+                "x" : 0.3615621030330658,
+                "y" : 0.6871461272239685
+              }
+            ],
+            "faceConfidences" : [
+              0.6649351
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 8.893125,
+            "timeSeconds" : 22.416666666666668,
+            "warmPassMilliseconds" : 8.9415
+          },
+          {
+            "baseRank" : 10,
+            "baseScore" : 0.4373262890934063,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+              {
+                "height" : 0.10053008794784546,
+                "width" : 0.04193989560008049,
+                "x" : 0.3895490765571594,
+                "y" : 0.765510082244873
+              }
+            ],
+            "faceConfidences" : [
+              0.7609872
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 7.403042,
+            "timeSeconds" : 26.708333333333332,
+            "warmPassMilliseconds" : 7.583625
+          },
+          {
+            "baseRank" : 8,
+            "baseScore" : 0.4459298402650141,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+              {
+                "height" : 0.1262911707162857,
+                "width" : 0.05268709734082222,
+                "x" : 0.430905282497406,
+                "y" : 0.752531886100769
+              }
+            ],
+            "faceConfidences" : [
+              0.83209544
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 6.993875,
+            "timeSeconds" : 30.958333333333332,
+            "warmPassMilliseconds" : 7.351917
+          },
+          {
+            "baseRank" : 5,
+            "baseScore" : 0.4542249100761414,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+              {
+                "height" : 0.13067112863063812,
+                "width" : 0.054514359682798386,
+                "x" : 0.414345920085907,
+                "y" : 0.6548913717269897
+              }
+            ],
+            "faceConfidences" : [
+              0.80282706
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 7.135958,
+            "timeSeconds" : 35.25,
+            "warmPassMilliseconds" : 7.169041
+          },
+          {
+            "baseRank" : 2,
+            "baseScore" : 0.46456057855232075,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+              {
+                "height" : 0.11786069720983505,
+                "width" : 0.049170009791851044,
+                "x" : 0.403862863779068,
+                "y" : 0.6631531715393066
+              }
+            ],
+            "faceConfidences" : [
+              0.6222596
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 7.061958,
+            "timeSeconds" : 39.541666666666664,
+            "warmPassMilliseconds" : 7.278458
+          },
+          {
+            "baseRank" : 6,
+            "baseScore" : 0.4531871868172651,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.016875,
+            "timeSeconds" : 43.791666666666664,
+            "warmPassMilliseconds" : 6.172875
+          },
+          {
+            "baseRank" : 11,
+            "baseScore" : 0.4365828177188741,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.892458,
+            "timeSeconds" : 48.083333333333336,
+            "warmPassMilliseconds" : 5.871125
+          },
+          {
+            "baseRank" : 7,
+            "baseScore" : 0.44735799989763725,
+            "compositionQuality" : 0.22782896994453802,
+            "faceBounds" : [
+              {
+                "height" : 0.21612481772899628,
+                "width" : 0.09016457200050354,
+                "x" : 0.4440477788448334,
+                "y" : 0.5952112674713135
+              },
+              {
+                "height" : 0.1002916619181633,
+                "width" : 0.04184042662382126,
+                "x" : 0.8004012107849121,
+                "y" : 0.9063588976860046
+              }
+            ],
+            "faceConfidences" : [
+              0.80858433,
+              0.6700557
+            ],
+            "faceCount" : 2,
+            "firstPassMilliseconds" : 9.249083,
+            "timeSeconds" : 52.375,
+            "warmPassMilliseconds" : 9.197542
+          },
+          {
+            "baseRank" : 1,
+            "baseScore" : 0.46866116311501926,
+            "compositionQuality" : 0.4285266328884241,
+            "faceBounds" : [
+              {
+                "height" : 0.33153292536735535,
+                "width" : 0.13831138610839844,
+                "x" : 0.5733546018600464,
+                "y" : 0.526057779788971
+              }
+            ],
+            "faceConfidences" : [
+              0.7964153
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 8.215084,
+            "timeSeconds" : 65.20833333333333,
+            "warmPassMilliseconds" : 6.776875
+          },
+          {
+            "baseRank" : 20,
+            "baseScore" : 0.40333112874015176,
+            "compositionQuality" : 0.7858998967772931,
+            "faceBounds" : [
+              {
+                "height" : 0.5566362142562866,
+                "width" : 0.23222167789936066,
+                "x" : 0.39787784218788147,
+                "y" : 0.13808293640613556
+              }
+            ],
+            "faceConfidences" : [
+              0.83706844
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 8.88975,
+            "timeSeconds" : 69.45833333333333,
+            "warmPassMilliseconds" : 8.889583
+          },
+          {
+            "baseRank" : 4,
+            "baseScore" : 0.4560733744082114,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+              {
+                "height" : 0.46884971857070923,
+                "width" : 0.19559824466705322,
+                "x" : 0.18674637377262115,
+                "y" : 0.26048874855041504
+              }
+            ],
+            "faceConfidences" : [
+              0.67260134
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 8.04325,
+            "timeSeconds" : 73.75,
+            "warmPassMilliseconds" : 7.92175
+          },
+          {
+            "baseRank" : 18,
+            "baseScore" : 0.4110616538881868,
+            "compositionQuality" : 0.7235191849349578,
+            "faceBounds" : [
+              {
+                "height" : 0.7642964124679565,
+                "width" : 0.3188548982143402,
+                "x" : 0.2777550220489502,
+                "y" : 0.06383664906024933
+              }
+            ],
+            "faceConfidences" : [
+              0.7670586
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 8.035083,
+            "timeSeconds" : 78.04166666666667,
+            "warmPassMilliseconds" : 8.092625
+          },
+          {
+            "baseRank" : 3,
+            "baseScore" : 0.4597279061151082,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+              {
+                "height" : 0.5067773461341858,
+                "width" : 0.2114211767911911,
+                "x" : 0.14096781611442566,
+                "y" : 0.25311803817749023
+              }
+            ],
+            "faceConfidences" : [
+              0.59805185
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 7.911917,
+            "timeSeconds" : 82.29166666666667,
+            "warmPassMilliseconds" : 8.37425
+          },
+          {
+            "baseRank" : 17,
+            "baseScore" : 0.4114085085665662,
+            "compositionQuality" : 0.6995490852569982,
+            "faceBounds" : [
+              {
+                "height" : 0.7901302576065063,
+                "width" : 0.3296324610710144,
+                "x" : 0.2467528134584427,
+                "y" : 0.037580426782369614
+              }
+            ],
+            "faceConfidences" : [
+              0.75162584
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 8.034166,
+            "timeSeconds" : 86.58333333333333,
+            "warmPassMilliseconds" : 8.13525
+          },
+          {
+            "baseRank" : 21,
+            "baseScore" : 0.40143703392019897,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.937666,
+            "timeSeconds" : 90.875,
+            "warmPassMilliseconds" : 5.911125
+          },
+          {
+            "baseRank" : 22,
+            "baseScore" : 0.383070511993207,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.40725,
+            "timeSeconds" : 95.125,
+            "warmPassMilliseconds" : 5.955959
+          },
+          {
+            "baseRank" : 14,
+            "baseScore" : 0.4337983810064435,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+              {
+                "height" : 0.4189319610595703,
+                "width" : 0.1747731864452362,
+                "x" : 0.33258920907974243,
+                "y" : 0.3308127224445343
+              }
+            ],
+            "faceConfidences" : [
+              0.6875
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 9.009417,
+            "timeSeconds" : 99.41666666666667,
+            "warmPassMilliseconds" : 9.716917
+          },
+          {
+            "baseRank" : 16,
+            "baseScore" : 0.4189231258303556,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+              {
+                "height" : 0.9072777032852173,
+                "width" : 0.3785049319267273,
+                "x" : 0.3493445813655853,
+                "y" : 0.0062594180926680565
+              }
+            ],
+            "faceConfidences" : [
+              0.61077565
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 8.240291,
+            "timeSeconds" : 103.70833333333333,
+            "warmPassMilliseconds" : 8.761834
+          },
+          {
+            "baseRank" : 19,
+            "baseScore" : 0.40788600922830553,
+            "compositionQuality" : 0.7832614399643276,
+            "faceBounds" : [
+              {
+                "height" : 0.5638535618782043,
+                "width" : 0.2352326661348343,
+                "x" : 0.41962742805480957,
+                "y" : 0.24841785430908203
+              }
+            ],
+            "faceConfidences" : [
+              0.79978025
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 7.981958,
+            "timeSeconds" : 108,
+            "warmPassMilliseconds" : 8.092333
+          }
+        ],
+        "contactSheetPath" : "tears-of-steel/face-calibration.jpg",
+        "detectedCandidateCount" : 16,
+        "detectionsStable" : true,
+        "firstPassMilliseconds" : 176.682083,
+        "maximumBonus" : 0.04,
+        "preferredWinnerCompositionQuality" : 0.4285266328884241,
+        "preferredWinnerTimeSeconds" : 65.20833333333333,
+        "scoredCandidateCount" : 7,
+        "totalFaceCount" : 19,
+        "warmPassMilliseconds" : 172.879708
+      },
+      "hybrid" : {
+        "acceptable" : true,
+        "imagePath" : "tears-of-steel/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.4542249100761414,
+        "score" : 0.6997687050380708,
+        "timeSeconds" : 35.25,
+        "visionScore" : 0.890625
+      },
+      "id" : "tears-of-steel",
+      "midpoint" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "tears-of-steel/midpoint.png",
+        "posterFrameScore" : 0.46663078935194835,
+        "score" : 0.46663078935194835,
+        "timeSeconds" : 59.958333333333336
+      },
+      "posterFrameKit" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "tears-of-steel/posterframekit.png",
+        "posterFrameScore" : 0.46866116311501926,
+        "score" : 0.46866116311501926,
+        "timeSeconds" : 65.20833333333333
+      },
+      "profile" : "general",
+      "vision" : {
+        "acceptable" : true,
+        "imagePath" : "tears-of-steel/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.4114085085665662,
+        "score" : 0.8984375,
+        "timeSeconds" : 86.58333333333333,
+        "visionScore" : 0.8984375
+      },
+      "visionAnalysisMilliseconds" : 119.79875
+    },
+    {
+      "captureMilliseconds" : 655.085,
+      "decodedCandidateCount" : 22,
+      "faceCalibration" : {
+        "baseWinnerTimeSeconds" : 9.583333333333334,
+        "candidateCount" : 8,
+        "candidates" : [
+          {
+            "baseRank" : 1,
+            "baseScore" : 0.39866525116298573,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 8.307708,
+            "timeSeconds" : 9.583333333333334,
+            "warmPassMilliseconds" : 5.857666
+          },
+          {
+            "baseRank" : 22,
+            "baseScore" : 0.28502701859817686,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.678083,
+            "timeSeconds" : 13.875,
+            "warmPassMilliseconds" : 6.298167
+          },
+          {
+            "baseRank" : 20,
+            "baseScore" : 0.3112115142534007,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.908958,
+            "timeSeconds" : 18.125,
+            "warmPassMilliseconds" : 5.713208
+          },
+          {
+            "baseRank" : 14,
+            "baseScore" : 0.32418369598753044,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.970917,
+            "timeSeconds" : 22.416666666666668,
+            "warmPassMilliseconds" : 6.408917
+          },
+          {
+            "baseRank" : 19,
+            "baseScore" : 0.3173992378984552,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.725833,
+            "timeSeconds" : 26.708333333333332,
+            "warmPassMilliseconds" : 6.039667
+          },
+          {
+            "baseRank" : 12,
+            "baseScore" : 0.32689341485670265,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.879833,
+            "timeSeconds" : 30.958333333333332,
+            "warmPassMilliseconds" : 6.097167
+          },
+          {
+            "baseRank" : 15,
+            "baseScore" : 0.3230083829523264,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.87925,
+            "timeSeconds" : 35.25,
+            "warmPassMilliseconds" : 6.5695
+          },
+          {
+            "baseRank" : 2,
+            "baseScore" : 0.3894810063639343,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.7845,
+            "timeSeconds" : 39.541666666666664,
+            "warmPassMilliseconds" : 6.034166
+          },
+          {
+            "baseRank" : 9,
+            "baseScore" : 0.33344920764448344,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.903041,
+            "timeSeconds" : 43.791666666666664,
+            "warmPassMilliseconds" : 5.828791
+          },
+          {
+            "baseRank" : 3,
+            "baseScore" : 0.38251896384513323,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.816125,
+            "timeSeconds" : 48.083333333333336,
+            "warmPassMilliseconds" : 6.117625
+          },
+          {
+            "baseRank" : 16,
+            "baseScore" : 0.3222727061569273,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+              {
+                "height" : 0.08586224168539047,
+                "width" : 0.035982925444841385,
+                "x" : 0.6982107162475586,
+                "y" : 0.662787675857544
+              }
+            ],
+            "faceConfidences" : [
+              0.74771786
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 7.048917,
+            "timeSeconds" : 52.375,
+            "warmPassMilliseconds" : 7.401792
+          },
+          {
+            "baseRank" : 13,
+            "baseScore" : 0.3247701542584839,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.073208,
+            "timeSeconds" : 65.20833333333333,
+            "warmPassMilliseconds" : 5.969959
+          },
+          {
+            "baseRank" : 11,
+            "baseScore" : 0.33041900178510736,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.039083,
+            "timeSeconds" : 69.45833333333333,
+            "warmPassMilliseconds" : 5.909875
+          },
+          {
+            "baseRank" : 4,
+            "baseScore" : 0.34914850628901223,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.376833,
+            "timeSeconds" : 73.75,
+            "warmPassMilliseconds" : 5.8395
+          },
+          {
+            "baseRank" : 8,
+            "baseScore" : 0.3381725299769912,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+              {
+                "height" : 0.11022971570491791,
+                "width" : 0.04619478061795235,
+                "x" : 0.6617691516876221,
+                "y" : 0.5741015672683716
+              }
+            ],
+            "faceConfidences" : [
+              0.6696912
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 8.429,
+            "timeSeconds" : 78.04166666666667,
+            "warmPassMilliseconds" : 8.518583
+          },
+          {
+            "baseRank" : 18,
+            "baseScore" : 0.31797011685923837,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.953416,
+            "timeSeconds" : 82.29166666666667,
+            "warmPassMilliseconds" : 5.935375
+          },
+          {
+            "baseRank" : 7,
+            "baseScore" : 0.34359998066615255,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 5.885833,
+            "timeSeconds" : 86.58333333333333,
+            "warmPassMilliseconds" : 5.830667
+          },
+          {
+            "baseRank" : 5,
+            "baseScore" : 0.3486403216957529,
+            "compositionQuality" : 0.6104590063725638,
+            "faceBounds" : [
+              {
+                "height" : 0.4007954001426697,
+                "width" : 0.16796429455280304,
+                "x" : 0.5440411567687988,
+                "y" : 0.3063158094882965
+              }
+            ],
+            "faceConfidences" : [
+              0.76578444
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 9.093334,
+            "timeSeconds" : 90.875,
+            "warmPassMilliseconds" : 9.359875
+          },
+          {
+            "baseRank" : 17,
+            "baseScore" : 0.3205881765924182,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.132708,
+            "timeSeconds" : 95.125,
+            "warmPassMilliseconds" : 5.875
+          },
+          {
+            "baseRank" : 6,
+            "baseScore" : 0.3448910688943576,
+            "compositionQuality" : 0.5955814367596587,
+            "faceBounds" : [
+              {
+                "height" : 0.417571485042572,
+                "width" : 0.17499476671218872,
+                "x" : 0.5730134844779968,
+                "y" : 0.43838950991630554
+              }
+            ],
+            "faceConfidences" : [
+              0.7139787
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 12.478916,
+            "timeSeconds" : 99.41666666666667,
+            "warmPassMilliseconds" : 8.200333
+          },
+          {
+            "baseRank" : 21,
+            "baseScore" : 0.30500912421648063,
+            "compositionQuality" : 0,
+            "faceBounds" : [
+
+            ],
+            "faceConfidences" : [
+
+            ],
+            "faceCount" : 0,
+            "firstPassMilliseconds" : 6.147875,
+            "timeSeconds" : 103.70833333333333,
+            "warmPassMilliseconds" : 5.802084
+          },
+          {
+            "baseRank" : 10,
+            "baseScore" : 0.33231913667928026,
+            "compositionQuality" : 0.5909681749481188,
+            "faceBounds" : [
+              {
+                "height" : 0.39907652139663696,
+                "width" : 0.16724395751953125,
+                "x" : 0.5165863633155823,
+                "y" : 0.4457007348537445
+              }
+            ],
+            "faceConfidences" : [
+              0.74641067
+            ],
+            "faceCount" : 1,
+            "firstPassMilliseconds" : 8.074042,
+            "timeSeconds" : 108,
+            "warmPassMilliseconds" : 7.791834
+          }
+        ],
+        "contactSheetPath" : "cosmos-laundromat/face-calibration.jpg",
+        "detectedCandidateCount" : 5,
+        "detectionsStable" : true,
+        "firstPassMilliseconds" : 150.62275,
+        "maximumBonus" : 0.04,
+        "preferredWinnerCompositionQuality" : 0,
+        "preferredWinnerTimeSeconds" : 9.583333333333334,
+        "scoredCandidateCount" : 3,
+        "totalFaceCount" : 5,
+        "warmPassMilliseconds" : 143.438541
+      },
+      "hybrid" : {
+        "acceptable" : true,
+        "imagePath" : "cosmos-laundromat/hybrid.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.39866525116298573,
+        "score" : 0.6296304771439929,
+        "timeSeconds" : 9.583333333333334,
+        "visionScore" : 0.72119140625
+      },
+      "id" : "cosmos-laundromat",
+      "midpoint" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "cosmos-laundromat/midpoint.png",
+        "posterFrameScore" : 0.3543386847466182,
+        "score" : 0.3543386847466182,
+        "timeSeconds" : 59.958333333333336
+      },
+      "posterFrameKit" : {
+        "acceptable" : true,
+        "faceCompositionBonus" : 0,
+        "imagePath" : "cosmos-laundromat/posterframekit.png",
+        "posterFrameScore" : 0.39866525116298573,
+        "score" : 0.39866525116298573,
+        "timeSeconds" : 9.583333333333334
+      },
+      "profile" : "animation",
+      "vision" : {
+        "acceptable" : true,
+        "imagePath" : "cosmos-laundromat/vision.png",
+        "isUtilityFrame" : false,
+        "posterFrameScore" : 0.3173992378984552,
+        "score" : 0.77734375,
+        "timeSeconds" : 26.708333333333332,
+        "visionScore" : 0.77734375
+      },
+      "visionAnalysisMilliseconds" : 118.533791
+    }
+  ],
+  "generatedAt" : "2026-09-07T18:10:58Z",
+  "schemaVersion" : 4,
+  "system" : {
+    "architecture" : "arm64",
+    "operatingSystem" : "Version 15.7.4 (Build 24G517)",
+    "physicalMemoryBytes" : 34359738368,
+    "processor" : "Apple M1 Pro",
+    "processorCount" : 10
+  }
+}
